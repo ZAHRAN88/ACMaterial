@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to SHA - 1st Semester, where you can
+    find all the materials you want"
+    />
+    <link rel="icon" href="assets/favicon.png" />
+    <link rel="stylesheet" href="assets/CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>SH.A</title>
+  </head>
+  <body>
+    <section class="a-b">
+      <div class="air air1"></div>
+      <div class="air air2"></div>
+      <div class="air air3"></div>
+      <div class="air air4"></div>
+    <header>
+        <a href="/">SH.A <sup></sup></a>
+    </header>
+    <main class="container">
+        <div class="overlay"></div>
+    
+      <div class="links">
+        <a href="courses/OOP.html" >OOP</a>
+        <a href="courses/Ds.html" >Data-structure</a>
+        <a href="courses/LD.html" >Logic design</a>
+        <a href="courses/M3.html" >Math 3</a>
+        <a href="courses/Managment.html" >Humanities
+          Fundamentals of 
+          Management</a>
+        
+    </main>
+
+    <!--Footer-->
+    
+
+    
+  </body>
+  <script>
+    const disabledLinks = document.querySelectorAll('.disabled');
+    disabledLinks.forEach((link) => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+      });
+      link.setAttribute('title', 'Coming Soon');
+    });
+  </script>
+</html>
