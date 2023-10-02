@@ -32,6 +32,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   text-align: center;
+  overflow-x: hidden;
 
   
   background-color: #414040; /* Set the background color */
