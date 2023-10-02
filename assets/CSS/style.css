@@ -90,6 +90,8 @@ header a {
 
 header a:hover {
   letter-spacing: 5px;
+  color: #fff;
+  text-decoration: none;
 }
 h2 {
   font-weight: 600;
