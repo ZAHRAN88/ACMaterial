@@ -348,3 +348,13 @@ footer a:hover {
 .wrapper .youtube:hover .tooltip:before{
   background:#de463b;
 }
+.list-group a{
+  font-weight: bold;
+  transition: letter-spacing .2s;
+
+}
+.list-group a:hover{
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 1.4px;
+}
