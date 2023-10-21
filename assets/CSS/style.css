@@ -358,3 +358,11 @@ footer a:hover {
   color: #fff;
   letter-spacing: 1.5px;
 }
+.flag {
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  top: -48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

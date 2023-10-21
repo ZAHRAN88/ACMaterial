@@ -317,3 +317,7 @@ h4 {
     background-position-x: -1000px; 
   }
 }
+.disabled{
+  pointer-events: none;
+  text-decoration: line-through;
+}
