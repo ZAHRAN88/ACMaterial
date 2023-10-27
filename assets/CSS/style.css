@@ -366,3 +366,8 @@ footer a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.note{
+  color: #00000080;
+  font-weight: bold;
+
+}
