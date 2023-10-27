@@ -371,3 +371,10 @@ footer a:hover {
   font-weight: bold;
 
 }
+.list-group .assignment-link{
+  text-decoration: underline;
+}
+.list-group .assignment-link:hover{
+ 
+  color: #000;
+}
