@@ -46,7 +46,7 @@ const getChecked = () => {
 };
 
 const setCheckedValue = () => {
-  const precentage = document.getElementById('progress');
+  const precentage = document.getElementById('progresss');
   const background = document.getElementById('back');
   const value = parseInt(getChecked());
   const finalAns = Math.round((value / checkBoxes.length) * 10000) / 100;
