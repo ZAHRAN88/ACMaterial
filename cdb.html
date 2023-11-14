@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Math 3 Progress Dashboard</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Math 3 Progress Dashboard</h1>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>Add Week</h2>
+        <form id="addWeekForm">
+          <div class="mb-3">
+            <label for="weekNumber" class="form-label">Week Number</label>
+            <input type="number" class="form-control" id="weekNumber" placeholder="Enter week number" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="lectureTitle" class="form-label">Lecture Title</label>
+            <input type="text" class="form-control" id="lectureTitle" placeholder="Enter lecture title" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="lectureContent" class="form-label">Lecture Content</label>
+            <textarea class="form-control" id="lectureContent" placeholder="Enter lecture content" required></textarea>
+          </div>
+
+          <div class="mb-3">
+            <label for="sectionTitle" class="form-label">Section Title</label>
+            <input type="text" class="form-control" id="sectionTitle" placeholder="Enter section title" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="sectionContent" class="form-label">Section Content</label>
+            <textarea class="form-control" id="sectionContent" placeholder="Enter section content" required></textarea>
+          </div>
+
+          <div class="mb-3">
+            <label for="summaryTitle" class="form-label">Summary Title</label>
+            <input type="text" class="form-control" id="summaryTitle" placeholder="Enter summary title" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="summaryContent" class="form-label">Summary Content</label>
+            <textarea class="form-control" id="summaryContent" placeholder="Enter summary content" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" id="addWeekBtn">Add Week</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const addWeekForm = document.getElementById('addWeekForm');
+
+      addWeekForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        // Get form values
+        const weekNumber = document.getElementById('weekNumber').value;
+        const lectureTitle = document.getElementById('lectureTitle').value;
+        const lectureContent = document.getElementById('lectureContent').value;
+        const sectionTitle = document.getElementById('sectionTitle').value;
+        const sectionContent = document.getElementById('sectionContent').value;
+        const summaryTitle = document.getElementById('summaryTitle').value;
+        const summaryContent = document.getElementById('summaryContent').value;
+
+        // Create a new week object
+        const newWeekData = {
+          weekNumber,
+          lectureTitle,
+          lectureContent,
+          sectionTitle,
+          sectionContent,
+          summaryTitle,
+          summaryContent,
+        };
+
+        // Store the new week data in localStorage
+        const existingWeeks = JSON.parse(localStorage.getItem('weeks')) || [];
+        existingWeeks.push(newWeekData);
+        localStorage.setItem('weeks', JSON.stringify(existingWeeks));
+
+        // Optional: You can redirect to the course page if needed
+        // window.location.href = 'course.html';
+      });
+    });
+  </script>
+</body>
+</html>

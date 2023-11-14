@@ -321,3 +321,7 @@ h4 {
   pointer-events: none;
   text-decoration: line-through;
 }
+.course-link {
+      text-decoration: none; /* Remove underline */
+      color: inherit; /* Inherit the color from the parent */
+    }

@@ -23,6 +23,31 @@
     
 
     <title>Math 3</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+      const linkElement = document.querySelector('.course-link');
+
+      document.addEventListener('keydown', function(event) {
+        if (event.key === 'e') {
+          event.preventDefault();
+
+          const passwordInput = prompt('Enter the password:');
+
+          // Replace 'YOUR_PASSWORD' with the actual password
+          const correctPassword = '241121';
+
+          if (passwordInput === correctPassword) {
+            // User entered the correct password, navigate to the link
+            linkElement.href = '/cdb.html';
+          } else {
+            alert('Incorrect password. Access denied.');
+        linkElement.removeAttribute('href');
+        linkElement.style.pointerEvents = 'none';
+          }
+        }
+      });
+    });
+    </script>
   </head>
 
   <body>
@@ -39,10 +64,13 @@
 
     <div class="container">
       <div class="hdrs">
-        <div class="course">Math 3</div>
+        <a class="course-link" href="#">
+          <div class="course">Math 3</div>
+        </a>
+        
       </div>
 
-      <div class="progress" id="progress">Progress :</div>
+      <div class="progresss" id="progresss">Progress :</div>
       <div class="progressContainer">
         <div class="progressBack" id="back"></div>
       </div>
@@ -60,9 +88,8 @@
         </p>
       </div>
 
-      
-
-      <button class="accordion">Week 1</button>
+      <div class="weeksContainer">
+        <button class="accordion">Week 1</button>
       <div class="panel">
         <p>
           <i class="fas fa-file-download"></i>
@@ -185,6 +212,9 @@
           >
         </p>
       </div>
+      </div>
+
+      
 <!--
       <button class="accordion">Week 5</button>
       <div class="panel">
@@ -395,5 +425,45 @@
 
     <script src="../assets/Scripts/accordion.js"></script>
     <script src="../assets/Scripts/check.js"></script>
+    <script >
+       
+          const accordionSections = document.querySelector('.weeksContainer');
+
+          // Retrieve weeks data from localStorage
+          const weeksData = JSON.parse(localStorage.getItem('weeks')) || [];
+
+          // Loop through weeksData and create accordion sections
+          weeksData.forEach(week => {
+  // Create the button
+  const weekButton = document.createElement("button")
+  weekButton.className = 'accordion'
+  weekButton.innerHTML = `Week ${week.weekNumber}`;
+
+  // Create the panel
+  const newAccordion = document.createElement('div');
+  newAccordion.className = 'panel';
+  newAccordion.innerHTML = `
+    <p>
+      <i class="fas fa-file-download"></i>
+      <a href="${week.lectureContent}" target="_blank" class="addCheck">${week.lectureTitle} (PDF)</a>
+    </p>
+    <p>
+      <i class="fas fa-file-download"></i>
+      <a href="${week.summaryContent}" target="_blank" class="addCheck">${week.summaryTitle} (PDF)</a>
+    </p>
+    <hr />
+    <p>
+      <i class="fas fa-file-download"></i>
+      <a href="${week.sectionContent}" target="_blank" class="addCheck">${week.sectionTitle} (PDF)</a>
+    </p>
+  `;
+
+  // Append the button and the panel to the accordion sections
+  accordionSections.appendChild(weekButton);
+  accordionSections.appendChild(newAccordion);
+});
+
+        
+    </script>
   </body>
 </html>
