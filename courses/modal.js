@@ -6,3 +6,5 @@ function showDelayedModal() {
   $(document).ready(function() {
     setTimeout(showDelayedModal, 1000); // 10000 milliseconds = 10 seconds
   });
+  /* make ksjahdlksa */
+    
