@@ -1,0 +1,103 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.container {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: green;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: green;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+/* Bootstrap card style for sections */
+.card {
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: green;
+    color: #ffffff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-top: 10px;
+    }
+}
+
+/* Additional Bootstrap classes for a professional look */
+
+body {
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.bg-primary {
+    background-color: green !important;
+}
+
+.text-primary {
+    color: green !important;
+}
+
+.text-white {
+    color: #ffffff !important;
+}
+
+
+}
+
+.dark-mode body {
+    background-color: #333;
+    color: #fff; /* Text color in dark mode */
+}
+
+.container {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    padding: 20px;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.dark-mode .container {
+    background-color: #444;
+}
