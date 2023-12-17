@@ -88,7 +88,14 @@ button {
 .activeBut:after {
   content: '-';
 }
-
+.important-Qs{
+ background: #c5530c;
+  color: white;
+}
+.important-Qs:hover{
+  background: #a9480c;
+color: #fff;
+}
 .fixed {
   background: #0078e3;
   color: white;
