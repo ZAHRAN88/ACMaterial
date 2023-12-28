@@ -9,7 +9,7 @@
     45deg,
     #1dcf4cbf -10px,
     #1dcf4cbf 25px,
-    #ffffff00 4px,
+    #ffffff00 6px,
     #ffffff2b 40px
   );
   height: 100%;
@@ -86,11 +86,12 @@ button {
   content: '-';
 }
 .important-Qs{
- background: #c5530c;
-  color: white;
+ background: #62c50ca0;
+  color: #ffff;
+  transition:all .3s;
 }
 .important-Qs:hover{
-  background: #a9480c;
+  background: #62c50cd2;
 color: #fff;
 }
 .fixed {
