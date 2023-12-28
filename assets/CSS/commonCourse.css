@@ -5,17 +5,13 @@
 }
 
 .progressBack {
-  background-image: linear-gradient(
-    110deg,
-   
-    #1dcf4cbf  25%,
-    #1dcf4cbf  50%,
-    #1dcf4cbf  50%,
-    #1dcf4cbf  75%,
-    #1dcf4cbf  75%,
-    #1dcf4cbf  100%
+  background: repeating-linear-gradient(
+    45deg,
+    #1dcf4cbf -10px,
+    #1dcf4cbf 25px,
+    #ffffff00 4px,
+    #ffffff2b 40px
   );
-  background-size: 40px 40px;
   height: 100%;
   width: 2%;
   display: flex;
@@ -23,6 +19,7 @@
   align-items: center;
   transition: width 0.6s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
+
 
 .progressContent {
   font-size: 1.5em;
