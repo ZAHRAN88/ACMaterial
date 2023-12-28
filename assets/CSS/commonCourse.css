@@ -6,14 +6,14 @@
 
 .progressBack {
   background-image: linear-gradient(
-    135deg,
-    #1d79cf 25%,
-    #0b67bd 25%,
-    #0b67bd 50%,
-    #1d79cf 50%,
-    #1d79cf 75%,
-    #0b67bd 75%,
-    #0b67bd 100%
+    110deg,
+   
+    #1dcf4cbf  25%,
+    #1dcf4cbf  50%,
+    #1dcf4cbf  50%,
+    #1dcf4cbf  75%,
+    #1dcf4cbf  75%,
+    #1dcf4cbf  100%
   );
   background-size: 40px 40px;
   height: 100%;
@@ -21,7 +21,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: width 0.6s ease;
+  transition: width 0.6s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
 .progressContent {
