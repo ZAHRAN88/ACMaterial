@@ -17,6 +17,9 @@
 </head>
 
 <body>
+  <div class="spinner" id="spinner">
+    <span class="loader" ></span>
+  </div>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">F12|AC 
 
@@ -170,6 +173,22 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+  // Get the spinner element
+const spinner = document.getElementById('spinner');
+
+// Show the spinner
+
+spinner.style.visibility="visible";
+spinner.style.opacity="1";
+
+
+// Set a timeout to hide the spinner after 5 seconds
+setTimeout(() => {
+  spinner.style.visibility = 'hidden';
+  spinner.style.opacity = "0";
+}, 5000);
+</script>
   </body>
 
 </html>

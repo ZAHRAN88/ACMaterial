@@ -27,7 +27,9 @@
   </head>
 
   <body>
-    
+    <div class="spinner" id="spinner">
+      <span class="loader" ></span>
+    </div>
     <section class="a-b">
         <div class='air air1'></div>
         <div class='air air2'></div>
@@ -378,6 +380,22 @@
 
 
     <script src="../assets/Scripts/accordion.js"></script>
-    <script src="../assets/Scripts/check.js"></script>
+    <script src="../assets/Scripts/check.js"></script>\
+    <script>
+      // Get the spinner element
+    const spinner = document.getElementById('spinner');
+    
+    // Show the spinner
+    
+    spinner.style.visibility="visible";
+    spinner.style.opacity="1";
+    
+    
+    // Set a timeout to hide the spinner after 5 seconds
+    setTimeout(() => {
+      spinner.style.visibility = 'hidden';
+      spinner.style.opacity = "0";
+    }, 5000);
+    </script>
   </body>
 </html>
