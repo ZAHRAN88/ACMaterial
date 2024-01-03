@@ -382,3 +382,24 @@ footer a:hover {
   text-decoration: line-through;
   text-indent: 2px;
 }
+.exams{
+ transition: all .3s  ;
+ background: #a8ff78;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: #fff !important; 
+text-shadow: 2px 4px 6px #33333386;
+}
+.exams:hover{
+  background: #11998e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.disabled-material{
+background-color: #1d1d1d83 !important;
+opacity: .7;
+color: #fff !important;
+  pointer-events: none;
+
+}
