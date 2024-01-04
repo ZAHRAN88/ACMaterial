@@ -279,29 +279,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
-  <script>
-    const disabledLinks = document.querySelectorAll('.disabled');
-    disabledLinks.forEach((link) => {
-      link.addEventListener('click', (e) => {
-        e.preventDefault();
-      });
-      link.setAttribute('title', 'Coming Soon');
-    });
-  </script>
-  <script>
-    // Get the spinner element
-  const spinner = document.getElementById('spinner');
-  
-  // Show the spinner
-  
-  spinner.style.visibility="visible";
-  spinner.style.opacity="1";
-  
-  
-  // Set a timeout to hide the spinner after 5 seconds
-  setTimeout(() => {
-    spinner.style.visibility = 'hidden';
-    spinner.style.opacity = "0";
-  }, 5000);
-  </script>
+  <script src="assets/Scripts/loader.js"></script>
 </html>
