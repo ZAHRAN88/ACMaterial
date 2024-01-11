@@ -334,3 +334,21 @@ h4 {
     .mostImp{
       font-weight: bold;
     }
+    .yt-link{
+      
+position: relative;
+      font-weight: bold;
+      font-size: 36px;
+    }
+    .panel li{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+    }
+    .quotee{
+
+      font-size: 26px;
+      text-shadow: 2px 2px 6px #67656588;
+    }
+    .course-notes:hover{
+background-color: #deaf1f !important;
+    }
