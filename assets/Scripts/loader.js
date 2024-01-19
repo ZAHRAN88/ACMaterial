@@ -12,3 +12,6 @@
     spinner.style.visibility = 'hidden';
     spinner.style.opacity = "0";
   }, 2000);
+
+  
+ 
