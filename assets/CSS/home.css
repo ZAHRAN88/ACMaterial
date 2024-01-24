@@ -2,6 +2,31 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
 
+
+
+
+:root {
+  --primary-color: #FF5733;
+  --primary-color-hover: #E60000;
+  --background-color: #3586ff;
+  --wave-color: url(https://1.bp.blogspot.com/-xQUc-TovqDk/XdxogmMqIRI/AAAAAAAACvI/AizpnE509UMGBcTiLJ58BC6iViPYGYQfQCLcBGAsYHQ/s1600/wave.png);
+  --link-color: white;
+  --link-color-hover: #E60000;
+  --container-background-color: rgba(255, 255, 255, 0.1);
+  --footer-background-color: rgba(255, 255, 255, 0.1);
+  --footer-text-color: white;
+  --disabled-color: rgb(255 255 255 / 0.4);
+  --disabled-text-color: rgb(255 255 255 / 0.4);
+  --wave-animation-duration: 222s;
+  --wave-animation-delay1: -1s;
+  --wave-animation-delay2: -4s;
+  --wave-animation-delay3: -4s;
+  --wave-animation-delay4: -2s;
+}
+
+
+
+
 *,
 *::before,
 *::after {
@@ -33,7 +58,7 @@
   
   transition:  .2s;
   
-  color: #FF5733; /* Choose your desired text color */
+  color: var(--primary-color); /* Choose your desired text color */
   text-decoration: none; /* Remove underlines */
   font-weight: bold; /* Make the text bold (optional) */
 background: transparent;
@@ -41,7 +66,7 @@ background: transparent;
 .here:hover{
  letter-spacing: 1.2px;
   text-decoration: none;
-  color: #E60000; /* Change the color on hover (optional) */
+  color: var(--primary-color-hover); /* Change the color on hover (optional) */
   
 
 }
@@ -149,7 +174,7 @@ h2:first-child {
 }
 
 .links a:hover {
-  background-color: rgb(255 255 255 / 0.4);
+  background-color: var(--disabled-color);
 }
 
 .disabled {
@@ -167,7 +192,7 @@ h2:first-child {
 }
 
 footer {
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--container-background-color);
   color: white;
   font-size: clamp(1rem, 2vw, 1.25rem);
   letter-spacing: 1px;
@@ -222,28 +247,28 @@ footer a:hover {
   animation: wave 30s linear infinite;
   z-index: 1000;
   opacity: 1;
-  animation-delay: 0s;
+  animation-delay: var(--wave-animation-delay1);
   bottom: 0;
 }
 .a-b .air.air2{
   animation: wave2 15s linear infinite;
   z-index: 999;
   opacity: 0.5;
-  animation-delay: -5s;
+  animation-delay: var(--wave-animation-delay2);
   bottom: 10px;
 }
 .a-b .air.air3{
   animation: wave 30s linear infinite;
   z-index: 998;
   opacity: 0.2;
-  animation-delay: -2s;
+  animation-delay: var(--wave-animation-delay3);
   bottom: 15px;
 }
 .a-b .air.air4{
   animation: wave2 5s linear infinite;
   z-index: 997;
   opacity: 0.7;
-  animation-delay: -5s;
+  animation-delay: var(--wave-animation-delay4);
   bottom: 20px;
 }
 @keyframes wave{
