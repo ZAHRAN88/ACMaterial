@@ -10,11 +10,11 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://i.postimg.cc/NGKfLpJx/Screenshot-2024-01-24-070429.png" alt="project-screenshot" width="1920" height="1080">
+<img src="https://i.postimg.cc/NGKfLpJx/Screenshot-2024-01-24-070429.png" alt="project-screenshot" width="1500" height="700">
 
-<img src="https://i.postimg.cc/tJZfy1zh/Logic-Designpng.png" alt="project-screenshot" width="400" height="400/">
+<img src="https://i.postimg.cc/tJZfy1zh/Logic-Designpng.png" alt="project-screenshot" width="1500" height="700">
 
-<img src="https://i.postimg.cc/DfRfGLR3/Screenshot-2024-01-24-070526.png" alt="project-screenshot" width="400" height="400/">
+<img src="https://i.postimg.cc/DfRfGLR3/Screenshot-2024-01-24-070526.png" alt="project-screenshot" width="1500" height="700">
 
   
   
