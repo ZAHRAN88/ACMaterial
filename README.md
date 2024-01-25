@@ -36,3 +36,4 @@ Technologies used in the project:
 *   JavaScript
 *   Bootstrap
 *   git
+*   API
