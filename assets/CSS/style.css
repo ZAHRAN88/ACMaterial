@@ -540,11 +540,11 @@ color: #fff !important;
   top: 50%;
   right: -5px;
   transform: translate(50%, -50%);
-  border-right: 20px solid #e9490f;
+  border-right: 15px solid #e9490f;
   
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
-  border-left: 20px solid transparent;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid transparent;
   width: 0px;
   height: 0px;
   /* background-color: #00000080; */
