@@ -291,3 +291,9 @@ footer a:hover {
   color: #000;
   padding-bottom: 30px;
 }
+
+#chatbase-bubble-button{
+
+  background-color: transparent !important;
+
+}
