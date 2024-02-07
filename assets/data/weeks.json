@@ -10,14 +10,6 @@
             { "icon": "fas fa-file-download", "text": "Lecture 1 (PDF)", "link": "https://example.com/week1/lecture1.pdf" },
             { "icon": "fas fa-file-download", "text": "Section 1 (PDF)", "link": "https://example.com/week1/section1.pdf" }
         ]
-    },
-    {
-        "weekName": "Week 2",
-        "resources": [
-            { "icon": "fas fa-play-circle", "text": "Lecture 2 (Video)", "link": "https://example.com/week2/lecture2" },
-            { "icon": "fas fa-file-download", "text": "Lecture 2 (PDF)", "link": "https://example.com/week2/lecture2.pdf" },
-            { "icon": "fas fa-file-download", "text": "Section 2 (PDF)", "link": "https://example.com/week2/section2.pdf" }
-        ]
     }
    
 ]
@@ -34,14 +26,6 @@
             { "icon": "fas fa-file-download", "text": "Lecture 1 (PDF)", "link": "https://example.com/week1/lecture1.pdf" },
             { "icon": "fas fa-file-download", "text": "Section 1 (PDF)", "link": "https://example.com/week1/section1.pdf" }
         ]
-    },
-    {
-        "weekName": "Week 2",
-        "resources": [
-            { "icon": "fas fa-play-circle", "text": "Lecture 2 (Video)", "link": "https://example.com/week2/lecture2" },
-            { "icon": "fas fa-file-download", "text": "Lecture 2 (PDF)", "link": "https://example.com/week2/lecture2.pdf" },
-            { "icon": "fas fa-file-download", "text": "Section 2 (PDF)", "link": "https://example.com/week2/section2.pdf" }
-        ]
     }
    
 ]
@@ -56,14 +40,6 @@
             { "icon": "fas fa-play-circle", "text": "Lecture 1 (Video)", "link": "https://example.com/week1/lecture1" },
             { "icon": "fas fa-file-download", "text": "Lecture 1 (PDF)", "link": "https://example.com/week1/lecture1.pdf" },
             { "icon": "fas fa-file-download", "text": "Section 1 (PDF)", "link": "https://example.com/week1/section1.pdf" }
-        ]
-    },
-    {
-        "weekName": "Week 2",
-        "resources": [
-            { "icon": "fas fa-play-circle", "text": "Lecture 2 (Video)", "link": "https://example.com/week2/lecture2" },
-            { "icon": "fas fa-file-download", "text": "Lecture 2 (PDF)", "link": "https://example.com/week2/lecture2.pdf" },
-            { "icon": "fas fa-file-download", "text": "Section 2 (PDF)", "link": "https://example.com/week2/section2.pdf" }
         ]
     }
   
@@ -82,7 +58,7 @@
         ]
     },
     {
-        "weekName": "Week 2",
+        "weekName": "Week 1",
         "resources": [
             { "icon": "fas fa-play-circle", "text": "Lecture 2 (Video)", "link": "https://example.com/week2/lecture2" },
             { "icon": "fas fa-file-download", "text": "Lecture 2 (PDF)", "link": "https://example.com/week2/lecture2.pdf" },
@@ -105,7 +81,7 @@
         ]
     },
     {
-        "weekName": "Week 2",
+        "weekName": "Week 1",
         "resources": [
             { "icon": "fas fa-play-circle", "text": "Lecture 2 (Video)", "link": "https://example.com/week2/lecture2" },
             { "icon": "fas fa-file-download", "text": "Lecture 2 (PDF)", "link": "https://example.com/week2/lecture2.pdf" },
@@ -121,7 +97,7 @@
 "weeks": [
    
     {
-        "weekName": "Week 2",
+        "weekName": "Week 1",
         "resources": [
             { "icon": "fas fa-play-circle", "text": "Lecture 2 (Video)", "link": "https://example.com/week2/lecture2" },
             { "icon": "fas fa-file-download", "text": "Lecture 2 (PDF)", "link": "https://example.com/week2/lecture2.pdf" },
