@@ -8,7 +8,7 @@
     <meta name="google-site-verification" content="bbOmbHqtLWnjoygemAf1XGba_tKY6HTffEPNUzIU2x8" />
     <title>Home</title>
     <!-- Include Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
     <link rel="stylesheet" href="assets/CSS/home.css">
     <link rel="stylesheet" href="assets/CSS/style.css">
@@ -46,31 +46,49 @@
  <!--  <div class="spinner" id="spinner">
     <span class="loader" ></span>
   </div> -->
-<!--   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">F12|AC 
-
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home</a>
-            </li>
-
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownContact" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Contact
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownContact">
-                    <a class="dropdown-item" href="https://wa.link/a22c2p">WA MSG <i class="fab fa-whatsapp"></i></a>
-                </div>
-            </li>
+  <nav class="navbar mb-lg-5 navbar-expand-lg">
+    <div class="container-fluid">
+     
+      <button id="navbar-toggler" class="navbar-toggler ms-sm-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i id="toggle-icon" class="fa-solid fa-book"></i>
+      </button>
+      <script>
+        // Get references to the button and icon elements
+        const button = document.getElementById('navbar-toggler');
+        const icon = document.getElementById('toggle-icon');
+      
+        // Add click event listener to the button
+        button.addEventListener('click', function() {
+          // Toggle between different icon classes
+          if (icon.classList.contains('fa-book')) {
+            icon.classList.remove('fa-book');
+            icon.classList.add('fa-heart');
+          } else {
+            icon.classList.remove('fa-heart');
+            icon.classList.add('fa-book');
+          }
+        });
+      </script>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav m-auto me-md-auto ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="4th.html">Semester 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="3rd.html">Semester 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://wa.link/a22c2p">Contact <i class="fab fa-whatsapp"></i></a>
+          </li>
+         
         </ul>
+      </div>
     </div>
-    
-</nav> -->
+  </nav>
+       
   
 
     <header>
@@ -83,10 +101,7 @@
     <main class="container">
     
 
-      <h2 class="ttl">
-        To check the schedules , click
-        <a class="here" href="javascript:void(0)">here</a>
-      </h2>
+ 
       <h2 class="ttl">To go straight to the PDFs, check the links below</h2>
       <div class="links">
         <a href="3rd.html" id="firstSemester" class="st-sem">1st Semester</a>
@@ -120,7 +135,7 @@
     </main> 
 
     <!--Footer-->
-    <footer >
+    <footer class=" d-lg-block" >
     
       <div class="row">
           <div class="col-md-6">
@@ -152,7 +167,7 @@
 </footer> 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="assets/Scripts/loader.js"></script>
 
 <!-- <script src="assets/Scripts/contenthide.js"></script> -->

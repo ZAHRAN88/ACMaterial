@@ -1,5 +1,7 @@
 const savedCourse = localStorage.getItem("selectedCourse");
-
+const course_Title = document.getElementById("courseTitle");
+const course_Name = document.getElementById("courseName");
+const drive_Link =document.getElementById("drive_Link");
 if (savedCourse) {
   
   fetch("../assets/data/weeks.json")
@@ -14,14 +16,16 @@ if (savedCourse) {
       const selectedCourseData = jsonData.find(
         (course) => course.courseName === savedCourse
       );
+     
+    
 
       if (selectedCourseData) {
-   
-        document.getElementById("courseTitle").innerText =
+       
+        course_Title.innerText =
           selectedCourseData.courseName;
-        document.getElementById("courseName").innerText =
+        course_Name.innerText =
           selectedCourseData.courseName;
-
+          drive_Link.href=selectedCourseData.drive;
       
         selectedCourseData.weeks.forEach((week) => {
           addWeek(week.weekName, week.resources);
