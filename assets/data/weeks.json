@@ -1,122 +1,64 @@
-
 [
     {
-"courseName": "System analysis",
-"drive" : "https://drive.google.com/drive/u/3/folders/18pZnVYS-4yqHuGY7_kc_2ecz2_qO4WeW",
-"weeks": [
+        "courseName": "System analysis",
+        "drive": "https://drive.google.com/drive/u/3/folders/18pZnVYS-4yqHuGY7_kc_2ecz2_qO4WeW",
+        "weeks": []
+    },
     {
-        "weekName": "Week 1",
-        "resources": [
-            { "icon": "fas fa-play-circle", "text": "Lecture 1 (Video)", "link": "https://example.com/week1/lecture1" },
-            { "icon": "fas fa-file-download", "text": "Lecture 1 (PDF)", "link": "https://example.com/week1/lecture1.pdf" },
-            { "icon": "fas fa-file-download", "text": "Section 1 (PDF)", "link": "https://example.com/week1/section1.pdf" }
-        ]
-    }
-   
-]
-
-},
-
-{
-"courseName": "File organization",
-"drive" : "https://drive.google.com/drive/u/3/folders/1AQnuG9FWbV-bKUnZaQoQwuYbZuIzDkUg",
-
-"weeks": [
-    {
-        "weekName": "Week 1",
-        "resources": [
-            { "icon": "fas fa-play-circle", "text": "Lecture 1 (Video)", "link": "https://example.com/week1/lecture1" },
-            { "icon": "fas fa-file-download", "text": "Lecture 1 (PDF)", "link": "https://example.com/week1/lecture1.pdf" },
-            { "icon": "fas fa-file-download", "text": "Section 1 (PDF)", "link": "https://example.com/week1/section1.pdf" }
-        ]
-    }
-   
-]
-
-},
-{
-"courseName": "Probability & statistics",
-"drive" : "https://drive.google.com/drive/u/3/folders/1D5DlHgg9BhsjcUvf0-RHS2gd1gsEDKqd",
-
-"weeks": [
-    {
-        "weekName": "Week 1",
-        "resources": [
-            { "icon": "fas fa-play-circle", "text": "Lecture 1 (Video)", "link": "https://example.com/week1/lecture1" },
-            { "icon": "fas fa-file-download", "text": "Lecture 1 (PDF)", "link": "https://example.com/week1/lecture1.pdf" },
-            { "icon": "fas fa-file-download", "text": "Section 1 (PDF)", "link": "https://example.com/week1/section1.pdf" }
-        ]
-    }
-  
-]
-
-},
-{
-"courseName": "Computer organization",
-"drive" : "https://drive.google.com/drive/u/3/folders/1EbH1bYzKLNQ9PZ_C2onyqSzY8ffKxfFW",
-
-"weeks": [
-    {
-        "weekName": "Week 1",
-        "resources": [
-            { "icon": "fas fa-play-circle", "text": "Lecture 1 (Video)", "link": "https://example.com/week1/lecture1" },
-            { "icon": "fas fa-file-download", "text": "Lecture 1 (PDF)", "link": "https://example.com/week1/lecture1.pdf" },
-            { "icon": "fas fa-file-download", "text": "Section 1 (PDF)", "link": "https://example.com/week1/section1.pdf" }
+        "courseName": "File organization",
+        "drive": "https://drive.google.com/drive/u/3/folders/1AQnuG9FWbV-bKUnZaQoQwuYbZuIzDkUg",
+        "weeks": [
+            {
+                "weekName": "Week 1",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": "https://drive.google.com/file/d/1AUSVhq4RUZuTQ9tWzQjx8v3n2uNROAJd/view?usp=drive_link"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": "https://drive.google.com/file/d/1BPkjb349QFB43dN9QkOGVyKHVp4Z6ewR/view?usp=drive_link"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": "as"
+                    }
+                ]
+            }
         ]
     },
     {
-        "weekName": "Week 1",
-        "resources": [
-            { "icon": "fas fa-play-circle", "text": "Lecture 2 (Video)", "link": "https://example.com/week2/lecture2" },
-            { "icon": "fas fa-file-download", "text": "Lecture 2 (PDF)", "link": "https://example.com/week2/lecture2.pdf" },
-            { "icon": "fas fa-file-download", "text": "Section 2 (PDF)", "link": "https://example.com/week2/section2.pdf" }
-        ]
-    }
-   
-]
-
-},
-{
-"courseName": "Managment",
-"drive" : "https://drive.google.com/drive/u/3/folders/1DV-81Mo2FM1pWn0mUVX9hD6dHhdbcXK6",
-
-"weeks": [
-    {
-        "weekName": "Week 1",
-        "resources": [
-            { "icon": "fas fa-play-circle", "text": "Lecture 1 (Video)", "link": "https://example.com/week1/lecture1" },
-            { "icon": "fas fa-file-download", "text": "Lecture 1 (PDF)", "link": "https://example.com/week1/lecture1.pdf" },
-            { "icon": "fas fa-file-download", "text": "Section 1 (PDF)", "link": "https://example.com/week1/section1.pdf" }
+        "courseName": "Computer organization",
+        "drive": "https://drive.google.com/drive/u/3/folders/1EbH1bYzKLNQ9PZ_C2onyqSzY8ffKxfFW",
+        "weeks": [
+            {
+                "weekName": "Week 1",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": "https://drive.google.com/file/d/1F6osTMNG-0C9_4WFAiNUbp0e2xbzHqSA/view?usp=drive_link"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": "https://drive.google.com/file/d/1FHoo-yByVyWDlmrmrw1HDdDRYaS-wFZs/view?usp=drive_link"
+                    }
+                ]
+            }
         ]
     },
     {
-        "weekName": "Week 1",
-        "resources": [
-            { "icon": "fas fa-play-circle", "text": "Lecture 2 (Video)", "link": "https://example.com/week2/lecture2" },
-            { "icon": "fas fa-file-download", "text": "Lecture 2 (PDF)", "link": "https://example.com/week2/lecture2.pdf" },
-            { "icon": "fas fa-file-download", "text": "Section 2 (PDF)", "link": "https://example.com/week2/section2.pdf" }
-        ]
-    }
-   
-]
-
-},
-{
-"courseName": "Pattern recognition",
-"drive" : "https://drive.google.com/drive/u/3/folders/1G8gHw6u_Wl8SFdotqKYRWo_lxHHHEBiu",
-
-"weeks": [
-   
+        "courseName": "Managment",
+        "drive": "https://drive.google.com/drive/u/3/folders/1DV-81Mo2FM1pWn0mUVX9hD6dHhdbcXK6",
+        "weeks": []
+    },
     {
-        "weekName": "Week 1",
-        "resources": [
-            { "icon": "fas fa-play-circle", "text": "Lecture 2 (Video)", "link": "https://example.com/week2/lecture2" },
-            { "icon": "fas fa-file-download", "text": "Lecture 2 (PDF)", "link": "https://example.com/week2/lecture2.pdf" },
-            { "icon": "fas fa-file-download", "text": "Section 2 (PDF)", "link": "https://example.com/week2/section2.pdf" }
-        ]
+        "courseName": "Pattern recognition",
+        "drive": "https://drive.google.com/drive/u/3/folders/1G8gHw6u_Wl8SFdotqKYRWo_lxHHHEBiu",
+        "weeks": []
     }
-   
-]
-
-}
 ]
