@@ -10,9 +10,10 @@
     <!-- Include Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
-    <link rel="stylesheet" href="assets/CSS/home.css">
+    
     <link rel="stylesheet" href="assets/CSS/style.css">
     <link rel="stylesheet" href="assets/CSS/comingsoon.css">
+    <link rel="stylesheet" href="assets/CSS/home.css">
       
     <link rel="icon" href="assets/CSS/fav.ico" sizes="any" />
 
@@ -46,7 +47,11 @@
  <!--  <div class="spinner" id="spinner">
     <span class="loader" ></span>
   </div> -->
-  <nav class="navbar mb-lg-5 navbar-expand-lg">
+  
+ 
+ 
+  
+  <nav class="navbar font-weight-bolder mb-lg-5 navbar-expand-lg">
     <div class="container-fluid">
      
       <button id="navbar-toggler" class="navbar-toggler ms-sm-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -88,15 +93,33 @@
       </div>
     </div>
   </nav>
+ 
+  <div class="ramadan-celebrations">
+    <img class="lantern l1" src="assets/img/giphy.gif" alt="">
+    <img class="lantern l2" src="assets/img/giphy.gif" alt="">
+    <img class="lantern l3" src="assets/img/giphy.gif" alt="">
+    <img class="zena z-left" src="assets/img/Zena.png" alt="">
+    <img class="zena z-right" src="assets/img/Zena - Copy.png" alt="">
+   
+  </div>
+  <div class="toast animate__animated" role="alert" aria-live="assertive" aria-atomic="true" data-autohide="false">
+    <div class="toast-header">
+        <img src="https://th.bing.com/th/id/R.10f010dc6b501879fcc72043582a39f7?rik=Liw1TKXEWpF20w&pid=ImgRaw&r=0" style="height: 25px; width: 25px;" class="rounded mr-2" alt="...">
+        <strong class="me-auto">Azkhar</strong>
+        <small class="text-muted" id="count">Count</small>
        
-  
-
+    
+    </div>
+    <div class="toast-body" id="toast-body">
+       
+    </div>
+</div>
     <header>
      
-      <a class="" href="#"> AC <span style="color: #E9490F;">|</span> Material  <i class="fa-solid fa-building-columns" style="color: #E9490F;"></i>  </a>
+      <a class="" href="#"> AC <span style="color: #F7C96B;">|</span> Material  <i ><img src="assets/img/moon.png" alt=""></i>  </a>
      
           
-        </div>
+    
     </header>
     <main class="container">
     
@@ -111,14 +134,16 @@
       </div>
        
         <section class="container mt-4 notes">
-          <div class="row">
-            <div class="col">
-              <div class="card">
+          <div class="row align-items-center">
+            <div class="col-12 mb-5">
+              <h3 class="card-title mb-3 text">Notes</h3>
+              <div class="card notes-card">
+                
                 <div class="card-body p-5">
-                  <h3 class="card-title text">Notes</h3>
+                  
                  
                   <ul class="list-group list-group-flush text-left">
-                   
+                   <li class="text-muted list-group-item">No Notes For Now</li>
                   </ul>
                  
                       
@@ -129,13 +154,81 @@
                 </div>
               </div>
             </div>
+            <div class="col">
+              <h3 class="card-title mb-3 text">مسابقة رمضان</h3>
+              <div class="card notes-card">
+                
+                <div class="card-body p-5">
+                  
+                 
+                  <ul class="list-group list-group-flush text-left">
+                   <a href="https://quizizz.com/join?class=O160593" class=" list-group-item link-info">دوس  هنا عشان تسجل في مسابقة الاسألة الدينية في رمضان</a>
+                  
+                  </ul>
+                 
+                      
+
+                 
+                  
+                  </ul>
+                </div>
+              </div>
+            </div>
+           
           </div>
         </section>
         
-    </main> 
+          <section class="count-section mt-5">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title mb-3 text">Ramadan is coming</h3>
+              <div class="count-down">
+                <p class="count-d"></p>
+                <p class="count-h"></p>
+                <p class="count-m"></p>
+                <p class="count-s"></p>
+              </div>
+            </div>
+          
+        </section>
+      
+        
+        
+      
+        <script>
+          // Set the date for Ramadan
+          const ramadanDate = new Date("March 11, 2024 00:00:00").getTime();
+      
+          // Update the countdown every second
+          const x = setInterval(function() {
+            // Get today's date and time
+            const now = new Date().getTime();
+              
+            // Calculate the distance between now and the countdown date
+            const distance = ramadanDate - now;
+              
+            // Calculate days, hours, minutes, and seconds
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+            // Display the result in the element with class="count-down"
+            document.querySelector('.count-d').innerHTML = `Days: ${days}`;
+            document.querySelector('.count-h').innerHTML = `Hours: ${hours}`;
+            document.querySelector('.count-m').innerHTML = `Minutes: ${minutes}`;
+            document.querySelector('.count-s').innerHTML = `Seconds: ${seconds}`;
+              
+            // If the countdown is over, display a message
+            if (distance < 0) {
+              clearInterval(x);
+              document.querySelector('.count-down').innerHTML = "Ramadan has begun!";
+            }
+          }, 1000);
+        </script>
 
     <!--Footer-->
-    <footer class=" d-lg-block" >
+   <!--  <footer class=" d-lg-block" >
     
       <div class="row">
           <div class="col-md-6">
@@ -164,13 +257,14 @@
       
   </div>
 
-</footer> 
+</footer>  -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="assets/Scripts/loader.js"></script>
+<script src="assets/Scripts/azkhar.js"></script>
 
-<!-- <script src="assets/Scripts/contenthide.js"></script> -->
+<script src="assets/Scripts/contenthide.js"></script>
 
   </body>
 

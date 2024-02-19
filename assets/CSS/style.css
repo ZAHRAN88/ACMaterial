@@ -86,17 +86,7 @@ a {
   color: inherit;
 }
 
-a[target='_blank']:not([class='banner']):after {
-  content: '';
-  width: 1rem;
-  height: 1rem;
-  margin-left: 0.5rem;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: inline-block;
-}
+
 
 header {
   background-color: var( --background-color);
@@ -512,45 +502,7 @@ color: #fff !important;
 
 /* ====================== Loader Styles ========================== */
 
-.scnd-sem{
-  position: relative;
-}
-.scnd-sem::after{
 
-  content: " ";
-  position: absolute;
-  top: 50%;
-  left: -5px;
-  transform: translate(-50%, -50%);
-  border-left: 20px solid #e9490f;
-  
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
-  border-right: 20px solid transparent;
-  width: 0px;
-  height: 0px;
-  /* background-color: #00000080; */
- 
-
-}
-
-.scnd-sem::before{
-  content: " ";
-  position: absolute;
-  top: 50%;
-  right: -5px;
-  transform: translate(50%, -50%);
-  border-right: 20px solid #e9490f;
-  
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
-  border-left: 20px solid transparent;
-  width: 0px;
-  height: 0px;
-  /* background-color: #00000080; */
- 
-
-}
 .navbar-brand{
   font-weight: bold;
   font-size: 1.5rem;
@@ -570,6 +522,7 @@ color: #fff !important;
 .nav-link{
   color: #fff;
   font-weight: bold;
+  font-size: 1.5rem;
 }
 .nav-item .active , .nav-link:hover{
   color: #d4d4d4 !important;
@@ -582,7 +535,7 @@ color: #fff !important;
   bottom: 2px;
   width: 0%;
   height: 3px;
-  background-color: #E9490F;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
   transition: cubic-bezier(.27,-0.51,.89,1.4) .4s ;
 }
  .nav-link:hover::after ,.active::after{
@@ -606,6 +559,7 @@ color: #fff !important;
   box-shadow: none;
   color: #e9490f;
 }
+
 .fa-book:focus{
  border: none;
  outline: none;

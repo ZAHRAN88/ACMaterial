@@ -1,213 +1,1311 @@
-[
-    {
-        "courseName": "System analysis",
-        "drive": "https://drive.google.com/drive/u/3/folders/18pZnVYS-4yqHuGY7_kc_2ecz2_qO4WeW",
-        "weeks": [
-            {
-                "weekName": "Week 1",
-                "resources": [
-                    {
-                        "icon": "fas fa-play-circle",
-                        "text": "Lecture 1 (Video)",
-                        "link": "https://example.com/week1/lecture1"
-                    },
-                    {
-                        "icon": "fas fa-file-download",
-                        "text": "Lecture 1 (PDF)",
-                        "link": "https://example.com/week1/lecture1.pdf"
-                    },
-                    {
-                        "icon": "fas fa-file-download",
-                        "text": "Section 1 (PDF)",
-                        "link": "https://example.com/week1/section1.pdf"
-                    }
-                ]
+{
+    "classes": [
+        {
+            "id": "1",
+            "name": "Section 1",
+            "schedule": {
+                "Sunday": {
+                    "5-7": [
+                        "Computer Organization lecture ",
+                        "مدرج 5 اعلام",
+                        "Dr. Tarek Salah"
+                    ]
+                },
+                "Monday": {
+                    "1-2": [
+                        "Patter Section",
+                        "قاعة 211",
+                        "E. Asmaa Elsayed"
+                    ],
+                    "3-4": [
+                        "Management Leacture",
+                        "مدرج 5",
+                        "Dr. Shahenda"
+                    ],
+                    "5-7": [
+                        "System Analysis Lecture",
+                        "مدرج 7",
+                        "Dr. Magdy El Henawy"
+                    ]
+                },
+                "Tuesday": {
+                    "1-2": [
+                        "System Section",
+                        "قاعة 211",
+                        "E. Esraa Ezzat"
+                    ],
+                    "3": [
+                        "Management Section",
+                        "مدرج 4",
+                        "E. Sohaila"
+                    ],
+                    "5-7": [
+                        "Pattern Lecture",
+                        "مدرج 5",
+                        "Dr. Negm Eldeen Shawky"
+                    ]
+                },
+                "Wednesday": {
+                    "3-4": [
+                        "File Section",
+                        "Lab 102 ",
+                        "E. Hend Ahmed"
+                    ],
+                    "5-7": [
+                        "File Lecture",
+                        "مدرج 5 اعلام",
+                        "Dr. Asmaa ElSaied"
+                    ]
+                },
+                "Thursday": {
+                    "1-2": [
+                        "STAT Section",
+                        "مدرج 5 ",
+                        "E. Eman"
+                    ],
+                    "5-6": [
+                        "CO Section",
+                        " قاعة 106",
+                        "E. Wafaa Khalil"
+                    ],
+                    "7-8": [
+                        "STAT Lecture",
+                        "مدرج 5",
+                        "Dr. Helmy Radwan"
+                    ]
+                }
             }
-        ]
-    },
-    {
-        "courseName": "File organization",
-        "drive": "https://drive.google.com/drive/u/3/folders/1AQnuG9FWbV-bKUnZaQoQwuYbZuIzDkUg",
-        "weeks": [
-            {
-                "weekName": "Week 1",
-                "resources": [
-                    {
-                        "icon": "fas fa-play-circle",
-                        "text": "Lecture 1 (Video)",
-                        "link": "https://example.com/week1/lecture1"
-                    },
-                    {
-                        "icon": "fas fa-file-download",
-                        "text": "Lecture 1 (PDF)",
-                        "link": "https://example.com/week1/lecture1.pdf"
-                    },
-                    {
-                        "icon": "fas fa-file-download",
-                        "text": "Section 1 (PDF)",
-                        "link": "https://example.com/week1/section1.pdf"
-                    }
-                ]
-            },
-            {
-                "weekName": "week 5",
-                "resources": [
-                    {
-                        "icon": "fas fa-play-circle",
-                        "text": "Lecture (Video)",
-                        "link": "lecw"
-                    },
-                    {
-                        "icon": "fas fa-file-download",
-                        "text": "Lecture (PDF)",
-                        "link": "asas"
-                    }
-                ]
+        },
+        {
+            "id": "2",
+            "name": "Section 2",
+            "schedule": {
+                "Sunday": {
+                    "1-2": [
+                        "Computer Organization Section ",
+                        " Lab 103 ",
+                        "E. Hend Ahmed"
+                    ],
+                    "5-7": [
+                        "Computer Organization lecture ",
+                        "مدرج 5 اعلام",
+                        "Dr. Tarek Salah"
+                    ]
+                },
+                "Monday": {
+                    "3-4": [
+                        "Management Leacture",
+                        "مدرج 5",
+                        "Dr. Shahenda"
+                    ],
+                    "5-7": [
+                        "System Analysis Lecture",
+                        "مدرج 7",
+                        "Dr. Magdy El Henawy"
+                    ]
+                },
+                "Tuesday": {
+                    "1-2": [
+                        "CO Section",
+                        "قاعة 202",
+                        "E. Wafaa Khalil"
+                    ],
+                    "3": [
+                        "Management Section",
+                        "مدرج 4",
+                        "E. Sohaila"
+                    ],
+                    "5-7": [
+                        "Pattern Lecture",
+                        "مدرج 5",
+                        "Dr. Negm Eldeen Shawky"
+                    ]
+                },
+                "Wednesday": {
+                    "5-7": [
+                        "File Lecture",
+                        "مدرج 5 اعلام",
+                        "Dr. Asmaa ElSaied"
+                    ]
+                },
+                "Thursday": {
+                    "1-2": [
+                        "STAT Section",
+                        "مدرج 5 ",
+                        "E. Eman"
+                    ],
+                    "3-4": [
+                        "System Analysis Section",
+                        "مدرج 2",
+                        "E. Esraa Ezzat"
+                    ],
+                    "5-6": [
+                        "CO Section",
+                        " قاعة 106",
+                        "E. Wafaa Khalil"
+                    ],
+                    "7-8": [
+                        "STAT Lecture",
+                        "مدرج 5",
+                        "Dr. Helmy Radwan"
+                    ]
+                }
             }
-        ]
-    },
-    {
-        "courseName": "Probability & statistics",
-        "drive": "https://drive.google.com/drive/u/3/folders/1D5DlHgg9BhsjcUvf0-RHS2gd1gsEDKqd",
-        "weeks": [
-            {
-                "weekName": "Week 1",
-                "resources": [
-                    {
-                        "icon": "fas fa-play-circle",
-                        "text": "Lecture 1 (Video)",
-                        "link": "https://example.com/week1/lecture1"
-                    },
-                    {
-                        "icon": "fas fa-file-download",
-                        "text": "Lecture 1 (PDF)",
-                        "link": "https://example.com/week1/lecture1.pdf"
-                    },
-                    {
-                        "icon": "fas fa-file-download",
-                        "text": "Section 1 (PDF)",
-                        "link": "https://example.com/week1/section1.pdf"
-                    }
-                ]
+        },
+        {
+            "id": "3",
+            "name": "Section 3",
+            "schedule": {
+                "Sunday": {
+                    "5-7": [
+                        "Computer Organization lecture ",
+                        "مدرج 5 اعلام",
+                        "Dr. Tarek Salah"
+                    ]
+                },
+                "Monday": {
+                    "1-2": [
+                        "STAT Section",
+                        "مدرح 1 ",
+                        "E. Eman"
+                    ],
+                    "3-4": [
+                        "Management Leacture",
+                        "مدرج 5",
+                        "Dr. Shahenda"
+                    ],
+                    "5-7": [
+                        "System Analysis Lecture",
+                        "مدرج 7",
+                        "Dr. Magdy El Henawy"
+                    ]
+                },
+                "Tuesday": {
+                    "1-2": [
+                        "File Section",
+                        "مدرح 1 ",
+                        "E. Hend Ahmed"
+                    ],
+                    "3": [
+                        "Management Section",
+                        "مدرج 4",
+                        "E. Sohaila"
+                    ],
+                    "5-7": [
+                        "Pattern Lecture",
+                        "مدرج 5",
+                        "Dr. Negm Eldeen Shawky"
+                    ]
+                },
+                "Wednesday": {
+                    "1-2": [
+                        "CO Section",
+                        "مدرج 4 ",
+                        "E. Wafaa Khalil"
+                    ],
+                    "5-7": [
+                        "File Lecture",
+                        "مدرج 5 اعلام",
+                        "Dr. Asmaa ElSaied"
+                    ]
+                },
+                "Thursday": {
+                    "1-2": [
+                        "Patter Section",
+                        " قاعة 211 ",
+                        "E. Asmaa Elsayed"
+                    ],
+                    "3-4": [
+                        "System Analysis Section",
+                        "قاع ",
+                        "E. Esraa Ezzat"
+                    ],
+                    "7-8": [
+                        "STAT Lecture",
+                        "مدرج 5",
+                        "Dr. Helmy Radwan"
+                    ]
+                }
             }
-        ]
-    },
-    {
-        "courseName": "Computer organization",
-        "drive": "https://drive.google.com/drive/u/3/folders/1EbH1bYzKLNQ9PZ_C2onyqSzY8ffKxfFW",
-        "weeks": [
-            {
-                "weekName": "Week 1",
-                "resources": [
-                    {
-                        "icon": "fas fa-play-circle",
-                        "text": "Lecture 1 (Video)",
-                        "link": "https://example.com/week1/lecture1"
-                    },
-                    {
-                        "icon": "fas fa-file-download",
-                        "text": "Lecture 1 (PDF)",
-                        "link": "https://example.com/week1/lecture1.pdf"
-                    },
-                    {
-                        "icon": "fas fa-file-download",
-                        "text": "Section 1 (PDF)",
-                        "link": "https://example.com/week1/section1.pdf"
-                    }
-                ]
-            },
-            {
-                "weekName": "Week 1",
-                "resources": [
-                    {
-                        "icon": "fas fa-play-circle",
-                        "text": "Lecture 2 (Video)",
-                        "link": "https://example.com/week2/lecture2"
-                    },
-                    {
-                        "icon": "fas fa-file-download",
-                        "text": "Lecture 2 (PDF)",
-                        "link": "https://example.com/week2/lecture2.pdf"
-                    },
-                    {
-                        "icon": "fas fa-file-download",
-                        "text": "Section 2 (PDF)",
-                        "link": "https://example.com/week2/section2.pdf"
-                    }
-                ]
+        },
+        {
+            "id": "4",
+            "name": "Section 4",
+            "schedule": {
+                "Sunday": {
+                    "3-4": [
+                        "CO Section ",
+                        " lab 103 ",
+                        "E. Hend Ahmed"
+                    ],
+                    "5-7": [
+                        "Computer Organization lecture ",
+                        "مدرج 5 اعلام",
+                        "Dr. Tarek Salah"
+                    ]
+                },
+                "Monday": {
+                    "1-2": [
+                        "STAT Section",
+                        "مدرح 1 ",
+                        "E. Eman"
+                    ],
+                    "3-4": [
+                        "Management Leacture",
+                        "مدرج 5",
+                        "Dr. Shahenda"
+                    ],
+                    "5-7": [
+                        "System Analysis Lecture",
+                        "مدرج 7",
+                        "Dr. Magdy El Henawy"
+                    ]
+                },
+                "Tuesday": {
+                    "3": [
+                        "Management Section",
+                        "مدرج 4",
+                        "E. Sohaila"
+                    ],
+                    "5-7": [
+                        "Pattern Lecture",
+                        "مدرج 5",
+                        "Dr. Negm Eldeen Shawky"
+                    ]
+                },
+                "Wednesday": {
+                    "1-2": [
+                        "System Analysis Section",
+                        "مدرج 6 ",
+                        "E. Esraa Ezzat"
+                    ],
+                    "3-4": [
+                        "CO Section ",
+                        "مدرج 6 ",
+                        "E. Wafaa Khalil"
+                    ],
+                    "5-7": [
+                        "File Lecture",
+                        "مدرج 5 اعلام",
+                        "Dr. Asmaa ElSaied"
+                    ]
+                },
+                "Thursday": {
+                    "5-6": [
+                        "Patter Section",
+                        "  مدرج 6 ",
+                        "E. Asmaa Elsayed"
+                    ],
+                    "7-8": [
+                        "STAT Lecture",
+                        "مدرج 5",
+                        "Dr. Helmy Radwan"
+                    ]
+                }
             }
-        ]
-    },
-    {
-        "courseName": "Managment",
-        "drive": "https://drive.google.com/drive/u/3/folders/1DV-81Mo2FM1pWn0mUVX9hD6dHhdbcXK6",
-        "weeks": [
-            {
-                "weekName": "Week 1",
-                "resources": [
-                    {
-                        "icon": "fas fa-play-circle",
-                        "text": "Lecture 1 (Video)",
-                        "link": "https://example.com/week1/lecture1"
-                    },
-                    {
-                        "icon": "fas fa-file-download",
-                        "text": "Lecture 1 (PDF)",
-                        "link": "https://example.com/week1/lecture1.pdf"
-                    },
-                    {
-                        "icon": "fas fa-file-download",
-                        "text": "Section 1 (PDF)",
-                        "link": "https://example.com/week1/section1.pdf"
-                    }
-                ]
-            },
-            {
-                "weekName": "Week 1",
-                "resources": [
-                    {
-                        "icon": "fas fa-play-circle",
-                        "text": "Lecture 2 (Video)",
-                        "link": "https://example.com/week2/lecture2"
-                    },
-                    {
-                        "icon": "fas fa-file-download",
-                        "text": "Lecture 2 (PDF)",
-                        "link": "https://example.com/week2/lecture2.pdf"
-                    },
-                    {
-                        "icon": "fas fa-file-download",
-                        "text": "Section 2 (PDF)",
-                        "link": "https://example.com/week2/section2.pdf"
-                    }
-                ]
+        },
+        {
+            "id": "5",
+            "name": "Section 5",
+            "schedule": {
+                "Sunday": {
+                    "1-2": [
+                        "Patter Section",
+                        " قاعة 106",
+                        "E. Yosr Mansour"
+                    ],
+                    "5-7": [
+                        "Computer Organization lecture ",
+                        "مدرج 5 اعلام",
+                        "Dr. Tarek Salah"
+                    ]
+                },
+                "Monday": {
+                    "1-2": [
+                        "Management Leacture",
+                        "مدرج 5",
+                        "Dr. Shahenda"
+                    ],
+                    "3-4": [
+                        "File Section",
+                        " lab 205 ",
+                        "E. Hend Ahmed"
+                    ],
+                    "5-7": [
+                        "System Analysis Lecture",
+                        "مدرج 7",
+                        "Dr. Magdy El Henawy"
+                    ]
+                },
+                "Tuesday": {
+                    "1": [
+                        "Management Section",
+                        "مدرج 4",
+                        "E. Sohaila"
+                    ],
+                    "3-4": [
+                        "CO Section",
+                        "قاعة 211",
+                        "E. Wafaa Khalil"
+                    ],
+                    "5-7": [
+                        "Pattern Lecture",
+                        "مدرج 5",
+                        "Dr. Negm Eldeen Shawky"
+                    ]
+                },
+                "Wednesday": {
+                    "3-4": [
+                        "System Analysis Section",
+                        "مدرج 1 ",
+                        "E. Esraa Ezzat"
+                    ],
+                    "5-7": [
+                        "File Lecture",
+                        "مدرج 5 اعلام",
+                        "Dr. Asmaa ElSaied"
+                    ]
+                },
+                "Thursday": {
+                    "3-4": [
+                        "STAT Section",
+                        "قاعة 202",
+                        "E. Eman"
+                    ],
+                    "5-6": [
+                        "STAT Lecture",
+                        "مدرج 5",
+                        "Dr. Helmy Radwan"
+                    ]
+                }
             }
-        ]
-    },
-    {
-        "courseName": "Pattern recognition",
-        "drive": "https://drive.google.com/drive/u/3/folders/1G8gHw6u_Wl8SFdotqKYRWo_lxHHHEBiu",
-        "weeks": [
-            {
-                "weekName": "Week 1",
-                "resources": [
-                    {
-                        "icon": "fas fa-play-circle",
-                        "text": "Lecture 2 (Video)",
-                        "link": "https://example.com/week2/lecture2"
-                    },
-                    {
-                        "icon": "fas fa-file-download",
-                        "text": "Lecture 2 (PDF)",
-                        "link": "https://example.com/week2/lecture2.pdf"
-                    },
-                    {
-                        "icon": "fas fa-file-download",
-                        "text": "Section 2 (PDF)",
-                        "link": "https://example.com/week2/section2.pdf"
-                    }
-                ]
+        },
+        {
+            "id": "6",
+            "name": "Section 6",
+            "schedule": {
+                "Sunday": {
+                    "3-4": [
+                        "Patter Section",
+                        " مدرج 2",
+                        "E. Yosr Mansour"
+                    ],
+                    "5-7": [
+                        "Computer Organization lecture ",
+                        "مدرج 5 اعلام",
+                        "Dr. Tarek Salah"
+                    ]
+                },
+                "Monday": {
+                    "1-2": [
+                        "Management Leacture",
+                        "مدرج 5",
+                        "Dr. Shahenda"
+                    ],
+                    "3-4": [
+                        "File Section",
+                        " lab 002 ",
+                        "E. Salma Tarek"
+                    ],
+                    "5-7": [
+                        "System Analysis Lecture",
+                        "مدرج 7",
+                        "Dr. Magdy El Henawy"
+                    ]
+                },
+                "Tuesday": {
+                    "1": [
+                        "Management Section",
+                        "مدرج 4",
+                        "E. Sohaila"
+                    ],
+                    "5-7": [
+                        "Pattern Lecture",
+                        "مدرج 5",
+                        "Dr. Negm Eldeen Shawky"
+                    ]
+                },
+                "Wednesday": {
+                    "1-2": [
+                        "STAT Section",
+                        "مدرج 5 ",
+                        "E. Eman"
+                    ],
+                    "5-7": [
+                        "File Lecture",
+                        "مدرج 5 اعلام",
+                        "Dr. Asmaa ElSaied"
+                    ]
+                },
+                "Thursday": {
+                    "3-4": [
+                        "CO Section",
+                        "مدرج 1 ",
+                        "E. Wafaa Khalil"
+                    ],
+                    "5-6": [
+                        "STAT Lecture",
+                        "مدرج 5",
+                        "Dr. Helmy Radwan"
+                    ],
+                    "7-8": [
+                        "System Analysis Section",
+                        "قاعة 202",
+                        "E. Esraa Ezzat"
+                    ]
+                }
             }
-        ]
-    }
-]
+        },
+        {
+            "id": "7",
+            "name": "Section 7",
+            "schedule": {
+                "Sunday": {
+                    "1-2": [
+                        "File Section",
+                        " Lab 102 ",
+                        "E. Omnia"
+                    ],
+                    "5-7": [
+                        "Computer Organization lecture ",
+                        "مدرج 5 اعلام",
+                        "Dr. Tarek Salah"
+                    ]
+                },
+                "Monday": {
+                    "1-2": [
+                        "Management Leacture",
+                        "مدرج 5",
+                        "Dr. Shahenda"
+                    ],
+                    "5-7": [
+                        "System Analysis Lecture",
+                        "مدرج 7",
+                        "Dr. Magdy El Henawy"
+                    ]
+                },
+                "Tuesday": {
+                    "1": [
+                        "Management Section",
+                        "مدرج 4",
+                        "E. Sohaila"
+                    ],
+                    "5-7": [
+                        "Pattern Lecture",
+                        "مدرج 5",
+                        "Dr. Negm Eldeen Shawky"
+                    ]
+                },
+                "Wednesday": {
+                    "1-2": [
+                        "STAT Section",
+                        "مدرج 5 ",
+                        "E. Eman"
+                    ],
+                    "3-4": [
+                        "Patter Section",
+                        "مدرج 4 ",
+                        "E. Yosr Mansour"
+                    ],
+                    "5-7": [
+                        "File Lecture",
+                        "مدرج 5 اعلام",
+                        "Dr. Asmaa ElSaied"
+                    ]
+                },
+                "Thursday": {
+                    "1-2": [
+                        "System Analysis Section",
+                        " مدرج 2",
+                        "E. Esraa Ezzat"
+                    ],
+                    "5-6": [
+                        "STAT Lecture",
+                        "مدرج 5",
+                        "Dr. Helmy Radwan"
+                    ],
+                    "7-8": [
+                        "CO Section",
+                        "مدرج 6",
+                        "E. Wafaa Khalil"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "8",
+            "name": "Section 8",
+            "schedule": {
+                "Sunday": {
+                    "3-4": [
+                        "File Section",
+                        " Lab 002 ",
+                        "E. Salma Tarek"
+                    ],
+                    "5-7": [
+                        "Computer Organization lecture ",
+                        "مدرج 5 اعلام",
+                        "Dr. Tarek Salah"
+                    ]
+                },
+                "Monday": {
+                    "1-2": [
+                        "Management Leacture",
+                        "مدرج 5",
+                        "Dr. Shahenda"
+                    ],
+                    "5-7": [
+                        "System Analysis Lecture",
+                        "مدرج 7",
+                        "Dr. Magdy El Henawy"
+                    ]
+                },
+                "Tuesday": {
+                    "1": [
+                        "Management Section",
+                        "مدرج 4",
+                        "E. Sohaila"
+                    ],
+                    "3-4": [
+                        "STAT Section",
+                        "مدرج 1 ",
+                        "E. Eman"
+                    ],
+                    "5-7": [
+                        "Pattern Lecture",
+                        "مدرج 5",
+                        "Dr. Negm Eldeen Shawky"
+                    ]
+                },
+                "Wednesday": {
+                    "1-2": [
+                        "System Analysis Section",
+                        "قاعة 211",
+                        "E. Howaida"
+                    ],
+                    "5-7": [
+                        "File Lecture",
+                        "مدرج 5 اعلام",
+                        "Dr. Asmaa ElSaied"
+                    ]
+                },
+                "Thursday": {
+                    "1-2": [
+                        "CO Section",
+                        " قاعة 106",
+                        "E. Wafaa Khalil"
+                    ],
+                    "5-6": [
+                        "STAT Lecture",
+                        "مدرج 5",
+                        "Dr. Helmy Radwan"
+                    ],
+                    "7-8": [
+                        "Pattern Section",
+                        "قاعة 211",
+                        "E. Laila Reda"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "9",
+            "name": "Section 9",
+            "schedule": {
+                "Sunday": {
+                    "3-4": [
+                        "Patter Section",
+                        " قاعة 211 ",
+                        "E. laila Reda"
+                    ],
+                    "5-6": [
+                        "System Analysis Section",
+                        " مدرج 2 ",
+                        "Dr. Howaida"
+                    ]
+                },
+                "Monday": {
+                    "1-3": [
+                        "Computer Organization Lecture ",
+                        "مدرج 5",
+                        "Dr.Tarek Salah"
+                    ],
+                    "5-6": [
+                        "Management Leacture",
+                        "مدرج 6",
+                        "Dr. Shahenda"
+                    ]
+                },
+                "Tuesday": {
+                    "1-2": [
+                        "CO Section",
+                        "قاعة 106",
+                        "E. Rehab Ragab"
+                    ],
+                    "3-4": [
+                        "STAT Section",
+                        "مدرج 1 ",
+                        "E. Eman"
+                    ],
+                    "5-7": [
+                        "Pattern Lecture",
+                        "مدرج 5",
+                        "Dr. Negm Eldeen Shawky"
+                    ],
+                    "8": [
+                        "Management Section",
+                        "مدرج 4 ",
+                        "E. Sohaila"
+                    ]
+                },
+                "Wednesday": {
+                    "1-2": [
+                        "System Analysis Lecture",
+                        "مدرج 7",
+                        "Dr. Magdy Elhenawy"
+                    ],
+                    "5-7": [
+                        "File Lecture",
+                        "مدرج 5 اعلام",
+                        "Dr. Asmaa ElSaied"
+                    ]
+                },
+                "Thursday": {
+                    "3-4": [
+                        "STAT Lecture",
+                        "مدرج 6",
+                        "Dr. Helmy Radwan"
+                    ],
+                    "5-6": [
+                        "File Section",
+                        "Lab 103",
+                        "E. Salma Tarek"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "10",
+            "name": "Section 10",
+            "schedule": {
+                "Sunday": {
+                    "1-2": [
+                        "Patter Section",
+                        "مدرج 3",
+                        "E. laila Reda"
+                    ],
+                    "3-4": [
+                        "CO Section",
+                        "مدرج 1",
+                        "E. Rehab Ragab"
+                    ],
+                    "5-6": [
+                        "STAT Section",
+                        " مدرج 1 ",
+                        "Dr. Alaa Mohamed"
+                    ]
+                },
+                "Monday": {
+                    "1-3": [
+                        "Computer Organization Lecture ",
+                        "مدرج 5",
+                        "Dr.Tarek Salah"
+                    ],
+                    "5-6": [
+                        "Management Leacture",
+                        "مدرج 6",
+                        "Dr. Shahenda"
+                    ]
+                },
+                "Tuesday": {
+                    "1-3": [
+                        "Pattern Recogintion lecture",
+                        "مدرج 5 اعلام",
+                        "Dr. Negm Eldeen Shawki"
+                    ],
+                    "8": [
+                        "Management Section",
+                        "مدرج 4 ",
+                        "E. Sohaila"
+                    ]
+                },
+                "Wednesday": {
+                    "1-3": [
+                        "System Analysis Lecture",
+                        "مدرج 7",
+                        "Dr. Magdy Elhenawy"
+                    ],
+                    "7-8": [
+                        "System Analysis Section",
+                        "مدرج 1",
+                        "E. Howaida"
+                    ]
+                },
+                "Thursday": {
+                    "1-2": [
+                        "File Section",
+                        "معمل 205",
+                        "E. Omnia"
+                    ],
+                    "3-4": [
+                        "STAT Lecture",
+                        "مدرج 6",
+                        "Dr. Helmy Radwan"
+                    ],
+                    "5-7": [
+                        "File Lecture",
+                        "مدرج 5 اعلام",
+                        "Dr. Asmaa ElSaied"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "11",
+            "name": "Section 11",
+            "schedule": {
+                "Sunday": {
+                    "5-6": [
+                        "STAT Section",
+                        " مدرج 1 ",
+                        "E. Alaa Mohamed"
+                    ]
+                },
+                "Monday": {
+                    "1-3": [
+                        "Computer Organization Lecture ",
+                        "مدرج 5",
+                        "Dr.Tarek Salah"
+                    ],
+                    "5-6": [
+                        "Management Leacture",
+                        "مدرج 6",
+                        "Dr. Shahenda"
+                    ],
+                    "7-8": [
+                        "File Section",
+                        "معمل 102",
+                        "E. Salma Tarek"
+                    ]
+                },
+                "Tuesday": {
+                    "1-3": [
+                        "Pattern Recogintion lecture",
+                        "مدرج 5 اعلام",
+                        "Dr. Negm Eldeen Shawki"
+                    ],
+                    "5-6": [
+                        "CO Section",
+                        "قاعة 211 ",
+                        "E. Rehab Ragab"
+                    ],
+                    "8": [
+                        "Management Section",
+                        "مدرج 4 ",
+                        "E. Sohaila"
+                    ]
+                },
+                "Wednesday": {
+                    "1-3": [
+                        "System Analysis Lecture",
+                        "مدرج 7",
+                        "Dr. Magdy Elhenawy"
+                    ],
+                    "5-6": [
+                        "System Analysis Section",
+                        "مدرج 6",
+                        "E. Howaida"
+                    ],
+                    "7-8": [
+                        "Pattern Section",
+                        "مدرج 2 ",
+                        "Dr. laila Reda"
+                    ]
+                },
+                "Thursday": {
+                    "3-4": [
+                        "STAT Lecture",
+                        "مدرج 6",
+                        "Dr. Helmy Radwan"
+                    ],
+                    "5-7": [
+                        "File Lecture",
+                        "مدرج 5 اعلام",
+                        "Dr. Asmaa ElSaied"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "12",
+            "name": "Section 12",
+            "schedule": {
+                "Sunday": {
+                    "1-2": [
+                        "Patter Section",
+                        " Lab 002 ",
+                        "E. Moustafa Sayed"
+                    ],
+                    "3-4": [
+                        "STAT Section",
+                        "قاعة 202",
+                        "E. Alaa Mohamed"
+                    ],
+                    "5-6": [
+                        "CO Section",
+                        "قاعة 211 ",
+                        "E. Rehab Ragab"
+                    ],
+                    "7-8": [
+                        "System Analysis Section",
+                        "قاعة 202",
+                        "E. Rehab Ragab"
+                    ]
+                },
+                "Monday": {
+                    "1-3": [
+                        "Computer Organization Lecture ",
+                        "مدرج 5",
+                        "Dr.Tarek Salah"
+                    ],
+                    "5-6": [
+                        "Management Leacture",
+                        "مدرج 6",
+                        "Dr. Shahenda"
+                    ]
+                },
+                "Tuesday": {
+                    "1-3": [
+                        "Pattern Recogintion lecture",
+                        "مدرج 5 اعلام",
+                        "Dr. Negm Eldeen Shawki"
+                    ],
+                    "5-6": [
+                        "Patter Section",
+                        " مدرج 2 ",
+                        "E. laila Reda"
+                    ],
+                    "8": [
+                        "Management Section",
+                        "مدرج 4 ",
+                        "E. Sohaila"
+                    ]
+                },
+                "Wednesday": {
+                    "1-3": [
+                        "System Analysis Lecture",
+                        "مدرج 7",
+                        "Dr. Magdy Elhenawy"
+                    ]
+                },
+                "Thursday": {
+                    "3-4": [
+                        "STAT Lecture",
+                        "مدرج 6",
+                        "Dr. Helmy Radwan"
+                    ],
+                    "5-7": [
+                        "File Lecture",
+                        "مدرج 5 اعلام",
+                        "Dr. Asmaa ElSaied"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "13",
+            "name": "Section 13",
+            "schedule": {
+                "Sunday": {
+                    "1-2": [
+                        "CO Section",
+                        " مدرج 2",
+                        "E. Rehab Ragab"
+                    ],
+                    "3-4": [
+                        "File Section",
+                        " Lab 105 ",
+                        "E. Alaa Mohamed"
+                    ],
+                    "5-6": [
+                        "STAT Section",
+                        "مدرج 4",
+                        "E. Adel Rateb"
+                    ],
+                    "7-8": [
+                        "Pattern Section",
+                        "قاعة 211",
+                        "E. Rana Khaled"
+                    ]
+                },
+                "Monday": {
+                    "1-3": [
+                        "Computer Organization Lecture ",
+                        "مدرج 5",
+                        "Dr.Tarek Salah"
+                    ],
+                    "7-8": [
+                        "Management Leacture",
+                        "مدرج 6",
+                        "Dr. Shahenda"
+                    ]
+                },
+                "Tuesday": {
+                    "1-3": [
+                        "Pattern Recogintion lecture",
+                        "مدرج 5 اعلام",
+                        "Dr. Negm Eldeen Shawki"
+                    ],
+                    "4": [
+                        "Management Section",
+                        " مدرج 3 ",
+                        "E. Sohaila"
+                    ],
+                    "5-6": [
+                        "System Analysis Section",
+                        "قاعة 106",
+                        "E. Rania"
+                    ]
+                },
+                "Wednesday": {
+                    "1-3": [
+                        "System Analysis Lecture",
+                        "مدرج 7",
+                        "Dr. Magdy Elhenawy"
+                    ]
+                   
+                },
+                "Thursday": {
+                    "1-2": [
+                        "STAT Lecture",
+                        "مدرج 6",
+                        "Dr. Helmy Radwan"
+                    ],
+                    "5-7": [
+                        "File Lecture",
+                        "مدرج 5 اعلام",
+                        "Dr. Asmaa ElSaied"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "14",
+            "name": "Section 14",
+            "schedule": {
+                "Sunday": {
+                    
+                    "5-6": [
+                        "STAT Section",
+                        "مدرج 4",
+                        "E. Adel Rateb"
+                    ]
+                },
+                "Monday": {
+                    "1-3": [
+                        "Computer Organization Lecture ",
+                        "مدرج 5",
+                        "Dr.Tarek Salah"
+                    ],
+                    "7-8": [
+                        "Management Leacture",
+                        "مدرج 6",
+                        "Dr. Shahenda"
+                    ]
+                },
+                "Tuesday": {
+                    "1-3": [
+                        "Pattern Recogintion lecture",
+                        "مدرج 5 اعلام",
+                        "Dr. Negm Eldeen Shawki"
+                    ],
+                    "4": [
+                        "Management Section",
+                        " مدرج 3 ",
+                        "E. Sohaila"
+                    ],
+                    "5-6": [
+                        "Patter Section",
+                        "مدرج 6",
+                        "E. Rana Khaled"
+                    ]
+                },
+                "Wednesday": {
+                    "1-3": [
+                        "System Analysis Lecture",
+                        "مدرج 7",
+                        "Dr. Magdy Elhenawy"
+                    ],
+                    "5-6": [
+                        "CO Section",
+                        "قاعة 211",
+                        "E. Rehab Ragab"
+                    ],
+                    "7-8": [
+                        "System Analysis Section",
+                        "قاعة 106",
+                        "E. Rania"
+                    ]
+                   
+                },
+                "Thursday": {
+                    "1-2": [
+                        "STAT Lecture",
+                        "مدرج 6",
+                        "Dr. Helmy Radwan"
+                    ],
+                    "3-4": [
+                        "File Section",
+                        "Lab 102",
+                        "E. Moustafa Sayed"
+                    ],
+                    "5-7": [
+                        "File Lecture",
+                        "مدرج 5 اعلام",
+                        "Dr. Asmaa ElSaied"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "15",
+            "name": "Section 15",
+            "schedule": {
+                "Sunday": {
+                    
+                    "3-4": [
+                        "STAT Section",
+                        "مدرج 6",
+                        "E. Adel Rateb"
+                    ]
+                    ,
+                    "5-6": [
+                        "Patter Section",
+                        "قاعة 202",
+                        "E. Rana Khaled"
+                    ]
+                },
+                "Monday": {
+                    "1-3": [
+                        "Computer Organization Lecture ",
+                        "مدرج 5",
+                        "Dr.Tarek Salah"
+                    ],
+                    "5-6"
+                    : [
+                        "System Analysis Section",
+                        "قاعة 106",
+                        "E. Rania"
+                    ],
+                    "7-8": [
+                        "Management Leacture",
+                        "مدرج 6",
+                        "Dr. Shahenda"
+                    ]
+                },
+                "Tuesday": {
+                    "1-3": [
+                        "Pattern Recogintion lecture",
+                        "مدرج 5 اعلام",
+                        "Dr. Negm Eldeen Shawki"
+                    ],
+                    "4": [
+                        "Management Section",
+                        " مدرج 3 ",
+                        "E. Sohaila"
+                    ],
+                    "7-8": [
+                        "File Section",
+                        "Lab 102",
+                        "E. Moustafa Sayed"
+                    ]
+                },
+                "Wednesday": {
+                    "1-3": [
+                        "System Analysis Lecture",
+                        "مدرج 7",
+                        "Dr. Magdy Elhenawy"
+                    ],
+                    "7-8": [
+                        "CO Section",
+                        "قاعة 202",
+                        "E. Rehab Ragab"
+                    ]
+                   
+                },
+                "Thursday": {
+                    "1-2": [
+                        "STAT Lecture",
+                        "مدرج 6",
+                        "Dr. Helmy Radwan"
+                    ],
+                    "5-7": [
+                        "File Lecture",
+                        "مدرج 5 اعلام",
+                        "Dr. Asmaa ElSaied"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "16",
+            "name": "Section 16",
+            "schedule": {
+                "Sunday": {
+                    
+                    "1,2": [
+                        "Patter Section",
+                        "مدرج 6",
+                        "E. Rana Khaled"
+                    ],
+                    "3-4": [
+                        "STAT Section",
+                        "مدرج 6",
+                        "E. Adel Rateb"
+                    ]
+                    ,
+                    "5-6": [
+                        "System Analysis Section",
+                        "قاعة 106",
+                        "E. Rania"
+                    ]
+                },
+                "Monday": {
+                    "1-3": [
+                        "Computer Organization Lecture ",
+                        "مدرج 5",
+                        "Dr.Tarek Salah"
+                    ],
+                    "5-6"
+                    : [
+                        "File Section",
+                        "Lab 101",
+                        "E. Moustaafa Sayed"
+                    ],
+                    "7-8": [
+                        "Management Leacture",
+                        "مدرج 6",
+                        "Dr. Shahenda"
+                    ]
+                },
+                "Tuesday": {
+                    "1-3": [
+                        "Pattern Recogintion lecture",
+                        "مدرج 5 اعلام",
+                        "Dr. Negm Eldeen Shawki"
+                    ],
+                    "4": [
+                        "Management Section",
+                        " مدرج 3 ",
+                        "E. Sohaila"
+                    ],
+                    "7-8": [
+                        "CO Section",
+                        "مدرج 1",
+                        "E. Rehab Ragab"
+                    ]
+                },
+                "Wednesday": {
+                    "1-3": [
+                        "System Analysis Lecture",
+                        "مدرج 7",
+                        "Dr. Magdy Elhenawy"
+                    ]
+                   
+                },
+                "Thursday": {
+                    "1-2": [
+                        "STAT Lecture",
+                        "مدرج 6",
+                        "Dr. Helmy Radwan"
+                    ],
+                    "5-7": [
+                        "File Lecture",
+                        "مدرج 5 اعلام",
+                        "Dr. Asmaa ElSaied"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "17",
+            "name": "Section 17",
+            "schedule": {
+                "Sunday": {
+                  
+                    
+                    "5-6": [
+                        "File Section",
+                        "Lab 101",
+                        "E. Omnia"
+                    ],
+                    "7-8":[
+                        "CO Section",
+                        "قاعة 106",
+                        "E. Rehab Ragab"
+                    ]
+                },
+                "Monday": {
+                    "1-3": [
+                        "Computer Organization Lecture ",
+                        "مدرج 5",
+                        "Dr.Tarek Salah"
+                    ],
+                    "7-8": [
+                        "Management Leacture",
+                        "مدرج 6",
+                        "Dr. Shahenda"
+                    ]
+                },
+                "Tuesday": {
+                    "1-3": [
+                        "Pattern Recogintion lecture",
+                        "مدرج 5 اعلام",
+                        "Dr. Negm Eldeen Shawki"
+                    ],
+                    "4": [
+                        "Management Section",
+                        " مدرج 3 ",
+                        "E. Sohaila"
+                    ],
+                    "7-8": [
+                        "System Analysis Section",
+                        "قاعة 211",
+                        "E. Rania"
+                    ]
+                },
+                "Wednesday": {
+                    "1-3": [
+                        "System Analysis Lecture",
+                        "مدرج 7",
+                        "Dr. Magdy Elhenawy"
+                    ],
+                    "7-8": [
+                        "Pattern Section",
+                        "مدرج 6",
+                        "E. Rana Khaled"
+                    ]
+                   
+                },
+                "Thursday": {
+                    "1-2": [
+                        "STAT Lecture",
+                        "مدرج 6",
+                        "Dr. Helmy Radwan"
+                    ],
+                    "3-4": [
+                        "STAT Section",
+                        "مدرج 2",
+                        "E. Adel Rateb"
+                    ],
+                    "5-7": [
+                        "File Lecture",
+                        "مدرج 5 اعلام",
+                        "Dr. Asmaa ElSaied"
+                    ]
+                }
+            }
+        }
+
+    ]
+}
