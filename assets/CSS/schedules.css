@@ -114,9 +114,24 @@ border-radius: 10px;
   text-decoration: none;
   color : #2f3640;
 }
+.highlighted-accordion{
+  box-shadow: -2px 0px 98px -5px rgba(246,245,245,0.75);
+    -webkit-box-shadow: -2px 0px 98px -5px rgba(246,245,245,0.75);
+    -moz-box-shadow: -2px 0px 98px -5px rgba(246,245,245,0.75);
+    background: hsla(0, 0%, 100%, 1);
+    background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(11, 80%, 57%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(11, 80%, 57%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(11, 80%, 57%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#E95D3C", GradientType=1 );
+}
+
 @media screen and (max-width: 620px) {
 .searchBox:hover > .searchInput {
     width: 130px;
     padding: 0 6px;
+
+}
+.back-btn{
+  top: -15px;
 }
 }
