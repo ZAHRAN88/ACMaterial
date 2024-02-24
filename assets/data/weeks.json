@@ -119,6 +119,12 @@
                     ,
                     {
                         "icon": "fas fa-file-download",
+                        "text": "Section (ENG Alaa)",
+                        "link": "https://drive.google.com/file/d/1Is6E75DvT8E5774QFwDrA8WIzD-ZZVAC/view?usp=drive_link"
+                    }
+                    ,
+                    {
+                        "icon": "fas fa-file-download",
                         "text": "Week Summary (Written)",
                         "link": "https://drive.google.com/file/d/1IqCoaGEuTLXCcn8o9-TJnSnJQKpQ4zyE/view?usp=drive_link"
                     }
