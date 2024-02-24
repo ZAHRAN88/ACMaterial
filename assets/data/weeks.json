@@ -2,7 +2,23 @@
     {
         "courseName": "System analysis",
         "drive": "https://drive.google.com/drive/u/3/folders/18pZnVYS-4yqHuGY7_kc_2ecz2_qO4WeW",
-        "weeks": []
+        "weeks": [
+            {
+                "weekName": "Week 1",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": ""
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": "https://drive.google.com/file/d/1IMGybaqm8-mVTWJFxLyUciUQabhnaKhj/view?usp=drive_link"
+                    }
+                ]
+            }
+        ]
     },
     {
         "courseName": "File organization",
@@ -20,11 +36,6 @@
                         "icon": "fas fa-file-download",
                         "text": "Section (PDF)",
                         "link": "https://drive.google.com/file/d/1BPkjb349QFB43dN9QkOGVyKHVp4Z6ewR/view?usp=drive_link"
-                    },
-                    {
-                        "icon": "fas fa-file-download",
-                        "text": "Section (PDF)",
-                        "link": "as"
                     }
                 ]
             }
@@ -60,5 +71,26 @@
         "courseName": "Pattern recognition",
         "drive": "https://drive.google.com/drive/u/3/folders/1G8gHw6u_Wl8SFdotqKYRWo_lxHHHEBiu",
         "weeks": []
+    },
+    {
+        "courseName": "Probability & statistics",
+        "drive": "https://drive.google.com/drive/u/3/folders/1D5DlHgg9BhsjcUvf0-RHS2gd1gsEDKqd",
+        "weeks": [
+            {
+                "weekName": "Week 1",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": ""
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": "https://drive.google.com/file/d/1IDSCh6qLwYf0fVaxP1_F-0q_dOGRKYo6/view?usp=drive_link"
+                    }
+                ]
+            }
+        ]
     }
 ]

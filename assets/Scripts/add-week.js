@@ -56,8 +56,14 @@ function addWeek(weekName, resources) {
     var p = document.createElement("p");
     var icon = document.createElement("i");
     icon.className = resource.icon;
+
     var link = document.createElement("a");
-    link.href = resource.link;
+    if (resource.link) {
+      link.href = resource.link;
+    } else {
+      link.classList.add("disabled");
+      link.classList.add("disabled");
+    }
     link.target = "_blank";
     link.className = "addCheck";
     link.innerText = resource.text;
@@ -68,8 +74,8 @@ function addWeek(weekName, resources) {
   });
 
   document.getElementById("materialcontainer").appendChild(panel);
-
 }
+
 function accordion() {
   var acc = document.getElementsByClassName("accordion");
   var i;
