@@ -20,8 +20,7 @@
                         "icon": "fas fa-file-download",
                         "text": "Section (PDF)",
                         "link": "https://drive.google.com/file/d/1IMGybaqm8-mVTWJFxLyUciUQabhnaKhj/view?usp=drive_link"
-                    }
-                    ,
+                    },
                     {
                         "icon": "fas fa-file-download",
                         "text": "Section (Written)",
@@ -81,7 +80,38 @@
     {
         "courseName": "Managment",
         "drive": "https://drive.google.com/drive/u/3/folders/1DV-81Mo2FM1pWn0mUVX9hD6dHhdbcXK6",
-        "weeks": []
+        "weeks": [
+            {
+                "weekName": "Week 1",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": "https://drive.google.com/file/d/1J1aYR7uyhbfKcEWPH_Yl_873mimMVgQT/view?usp=drive_link"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "weekName": "Week 2",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": "https://drive.google.com/file/d/1J9JGD05gzkTXoSSv-IEG2g7vqxBEQg1l/view?usp=drive_link"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": ""
+                    }
+                ]
+            }
+        ]
     },
     {
         "courseName": "Pattern recognition",
@@ -120,14 +150,12 @@
                         "icon": "fas fa-file-download",
                         "text": "Section (PDF)",
                         "link": "https://drive.google.com/file/d/1IDSCh6qLwYf0fVaxP1_F-0q_dOGRKYo6/view?usp=drive_link"
-                    }
-                    ,
+                    },
                     {
                         "icon": "fas fa-file-download",
                         "text": "Section (ENG Alaa)",
                         "link": "https://drive.google.com/file/d/1Is6E75DvT8E5774QFwDrA8WIzD-ZZVAC/view?usp=drive_link"
-                    }
-                    ,
+                    },
                     {
                         "icon": "fas fa-file-download",
                         "text": "Week Summary (Written)",
