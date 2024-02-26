@@ -122,13 +122,25 @@
                 "resources": [
                     {
                         "icon": "fas fa-file-download",
-                        "text": "Lecture Summary (Written)",
-                        "link": "https://drive.google.com/file/d/1IluK_GW-H-lgW0aTH_Z6Pggs6qNWt0tM/view?usp=drive_link"
+                        "text": "Lecture (PDF)",
+                        "link": "https://drive.google.com/file/d/1JF0sZ6CZgcU_aOs7opx4kKeZxBl82bIZ/view?usp=drive_link"
                     },
                     {
                         "icon": "fas fa-file-download",
+                        "text": "Lecture Summary (Written)",
+                        "link": "https://drive.google.com/file/d/1IluK_GW-H-lgW0aTH_Z6Pggs6qNWt0tM/view?usp=drive_link"
+                    },
+                    
+                    {
+                        "icon": "fas fa-file-download",
                         "text": "Section (PDF)",
-                        "link": ""
+                        "link": "https://drive.google.com/file/d/1H8shqDIgSgTLgRpeFzKIH8AmMkS_An2t/view?usp=drive_link"
+                    },
+                    
+                    {
+                        "icon": "fa-solid fa-list-check",
+                        "text": "Assignment 1",
+                        "link": "https://learn1.sha.edu.eg/mod/assign/view.php?id=4222"
                     }
                 ]
             }
