@@ -27,6 +27,21 @@
                         "link": "https://drive.google.com/file/d/1IfkJUNjB_t-CFZsFaW1y9hfFjCY8i_-F/view?usp=drive_link"
                     }
                 ]
+            },
+            {
+                "weekName": "Week 2",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": ""
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": "https://drive.google.com/file/d/1JFrBkjtPAU2ErjUtDUEFYCUL63Mzh0Fw/view?usp=drive_link"
+                    }
+                ]
             }
         ]
     },
@@ -130,13 +145,11 @@
                         "text": "Lecture Summary (Written)",
                         "link": "https://drive.google.com/file/d/1IluK_GW-H-lgW0aTH_Z6Pggs6qNWt0tM/view?usp=drive_link"
                     },
-                    
                     {
                         "icon": "fas fa-file-download",
                         "text": "Section (PDF)",
                         "link": "https://drive.google.com/file/d/1H8shqDIgSgTLgRpeFzKIH8AmMkS_An2t/view?usp=drive_link"
                     },
-                    
                     {
                         "icon": "fa-solid fa-list-check",
                         "text": "Assignment 1",
