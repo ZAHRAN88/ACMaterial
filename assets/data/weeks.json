@@ -65,6 +65,21 @@
                         "link": "https://drive.google.com/file/d/1Ic1FP93VrmAGKLWutMiy3aA6JnaEvMd5/view?usp=drive_link"
                     }
                 ]
+            },
+            {
+                "weekName": "Week 2",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": ""
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": "https://drive.google.com/file/d/1JHW9UsODQuoDdkDPd4G6tMY6rImOingB/view?usp=drive_link"
+                    }
+                ]
             }
         ]
     },
