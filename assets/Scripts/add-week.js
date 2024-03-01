@@ -2,6 +2,7 @@ const savedCourse = localStorage.getItem("selectedCourse");
 const course_Title = document.getElementById("courseTitle");
 const course_Name = document.getElementById("courseName");
 const drive_Link =document.getElementById("drive_Link");
+const playlist=document.getElementById("playlist");
 if (savedCourse) {
   
   fetch("../assets/data/weeks.json")
@@ -26,7 +27,17 @@ if (savedCourse) {
         course_Name.innerText =
           selectedCourseData.courseName;
           drive_Link.href=selectedCourseData.drive;
+         selectedCourseData.playlist?playlist.href=selectedCourseData.playlist:comingSoon(playlist);
+      function comingSoon(playlist) {
       
+        
+        playlist.innerText="PlayList Coming Soon...";
+        playlist.style.cursor="not-allowed";
+        playlist.href="#";
+   
+
+      
+      }
         selectedCourseData.weeks.forEach((week) => {
           addWeek(week.weekName, week.resources);
         });
