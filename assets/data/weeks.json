@@ -191,6 +191,31 @@
                         "link": "https://learn1.sha.edu.eg/mod/assign/view.php?id=4222"
                     }
                 ]
+            },
+            {
+                "weekName": "Week 2",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": "https://drive.google.com/file/d/1JJ9H_ErIyWva0R7s9Qk5QTm52wW4a_fz/view?usp=drive_link"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": ""
+                    },
+                    {
+                        "icon": "fa-solid fa-list-check",
+                        "text": "Assignment 2",
+                        "link": "https://learn1.sha.edu.eg/mod/assign/view.php?id=4384"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Sheet 1 (PDF)",
+                        "link": "https://drive.google.com/file/d/1JPQ5FrQZKrQ0y6of4Hy8NJqhGlB7bwBj/view?usp=drive_link"
+                    }
+                ]
             }
         ]
     },
