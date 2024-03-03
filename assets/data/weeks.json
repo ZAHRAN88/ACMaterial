@@ -57,12 +57,22 @@
                     {
                         "icon": "fas fa-file-download",
                         "text": "Lecture (PDF)",
-                        "link": "https://drive.google.com/file/d/1AUSVhq4RUZuTQ9tWzQjx8v3n2uNROAJd/view?usp=drive_link"
+                        "link": "https://drive.google.com/drive/folders/1Jz846Eg-a_ejFplwvyzB8y80l9alnuwj?usp=drive_link"
                     },
                     {
                         "icon": "fas fa-file-download",
                         "text": "Section (PDF)",
                         "link": "https://drive.google.com/file/d/1Ic1FP93VrmAGKLWutMiy3aA6JnaEvMd5/view?usp=drive_link"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Sheet 1 (PDF)",
+                        "link": "https://drive.google.com/file/d/1K3qCZqqfaIKML5HOWKhUKTDGfeQNkNrW/view?usp=drive_link"
+                    },
+                    {
+                        "icon": "fa-solid fa-list-check",
+                        "text": "Assignment 1",
+                        "link": "https://learn1.sha.edu.eg/mod/assign/view.php?id=4389"
                     }
                 ]
             },
@@ -72,12 +82,23 @@
                     {
                         "icon": "fas fa-file-download",
                         "text": "Lecture (PDF)",
-                        "link": ""
+                        "link": "https://drive.google.com/file/d/1K0WgAfUpFNMbcjQTWRyQF7W7dDH6U3Ym/view?usp=drive_link"
                     },
                     {
                         "icon": "fas fa-file-download",
                         "text": "Section (PDF)",
                         "link": "https://drive.google.com/file/d/1JHW9UsODQuoDdkDPd4G6tMY6rImOingB/view?usp=drive_link"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Sheet 1 (PDF)",
+                        "link": "https://drive.google.com/file/d/1K49D-U2n3ctBq6tY9oVyPoioczpqtKv6/view?usp=drive_link"
+                    }
+                    ,
+                    {
+                        "icon": "fa-solid fa-list-check",
+                        "text": "Assignment 2",
+                        "link": "https://learn1.sha.edu.eg/mod/assign/view.php?id=4390"
                     }
                 ]
             }
