@@ -48,7 +48,8 @@
     },
     {
         "courseName": "File organization",
-        "playlist": "",
+        "playlist": "https://www.youtube.com/playlist?list=PLwMDC6s3ODvKWHxfJ-5jm6Mi-IXlGAsmL",
+       
         "drive": "https://drive.google.com/drive/u/3/folders/1AQnuG9FWbV-bKUnZaQoQwuYbZuIzDkUg",
         "weeks": [
             {
@@ -106,7 +107,8 @@
     },
     {
         "courseName": "Computer organization",
-        "playlist": "",
+        "playlist": "https://www.youtube.com/playlist?list=PL-cKUB-e2KiswAkwZLJYlTzI69FpSJa50",
+        "playlist2": "https://shaedu-my.sharepoint.com/:f:/r/personal/321213154_sha_edu_eg/Documents/CO%20Sections%20Recordings?csf=1&web=1&e=axmhyZ",
         "drive": "https://drive.google.com/drive/u/3/folders/1EbH1bYzKLNQ9PZ_C2onyqSzY8ffKxfFW",
         "weeks": [
             {
@@ -148,7 +150,7 @@
     },
     {
         "courseName": "Managment",
-        "playlist": "",
+        "playlist": "https://www.youtube.com/watch?v=8DM8ytHQ3T4&list=PLn4GMsUj0cCzub602LHqrPDMYRDoy9MkB",
         "drive": "https://drive.google.com/drive/u/3/folders/1DV-81Mo2FM1pWn0mUVX9hD6dHhdbcXK6",
         "weeks": [
             {
@@ -186,6 +188,7 @@
     {
         "courseName": "Pattern recognition",
         "playlist": "",
+        "playlist2": "https://drive.google.com/drive/u/0/folders/1VnMetVQcOR76lyAxKLyV94h4A_sSM1YE",
         "drive": "https://drive.google.com/drive/u/3/folders/1G8gHw6u_Wl8SFdotqKYRWo_lxHHHEBiu",
         "weeks": [
             {
