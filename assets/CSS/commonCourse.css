@@ -370,6 +370,21 @@ background-color: #deaf1f !important;
     } */
     .course-playlist{
      padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    transition: all .3s;
+    }
+    @media screen and (max-width: 600px) {
+       
+      .course-playlist{
+        display: flex;
+        flex-direction: column;
+      }
+      .course-playlist .frst-link{
+        position: relative;
+        top: -50px;
+      }
+      
     }
     .course-playlist a{
       color: white;
@@ -381,6 +396,7 @@ background-color: #deaf1f !important;
       height: 2rem;
       transition: all .3s;
       text-decoration: none;
+    
     }
     .course-playlist a:hover{
       color: #deaf1f;
