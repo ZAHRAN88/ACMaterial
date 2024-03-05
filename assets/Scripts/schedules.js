@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Load JSON data from external file
-    fetch("assets/data/courses.json")
+    fetch("https://raw.githubusercontent.com/ZAHRAN88/ACMaterial/ff5882debe2d8ba501fd7f4c45241e25e62afacc/assets/data/courses.json")
         .then(response => response.json())
         .then(data => {
             // Function to create accordion items

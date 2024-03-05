@@ -6,7 +6,7 @@ const playlist=document.getElementById("playlist");
 const section_playlist=document.getElementById("playlist2");
 if (savedCourse) {
   
-  fetch("../assets/data/weeks.json")
+  fetch("https://raw.githubusercontent.com/ZAHRAN88/ACMaterial/main/assets/data/weeks.json")
     .then((response) => {
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
