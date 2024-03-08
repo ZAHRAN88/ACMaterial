@@ -173,6 +173,21 @@
                         "link": "https://drive.google.com/file/d/1FKW8xzsADviFiTnk3gRI-ycbIymY2ywL/view?usp=drive_link"
                     }
                 ]
+            },
+            {
+                "weekName": "Week 3",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": ""
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": "https://drive.google.com/file/d/1FVZXOxs15hN81e07vynlyl0Werz2fbi_/view?usp=drive_link"
+                    }
+                ]
             }
         ]
     },
@@ -297,7 +312,6 @@
                         "text": "Section (PDF)",
                         "link": "https://drive.google.com/file/d/1KNm2NdJdtf98nCY9qiFn9M6Ykc1gD9tu/view?usp=drive_link"
                     }
-                    
                 ]
             }
         ]
@@ -330,6 +344,21 @@
                         "icon": "fas fa-file-download",
                         "text": "Week Summary (Written)",
                         "link": "https://drive.google.com/file/d/1IqCoaGEuTLXCcn8o9-TJnSnJQKpQ4zyE/view?usp=drive_link"
+                    }
+                ]
+            },
+            {
+                "weekName": "Week 2",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": ""
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": "https://drive.google.com/file/d/1Kt49Hg4BWUCmVT6EFZ7ml7-UVaZync1C/view?usp=drive_link"
                     }
                 ]
             }
