@@ -4,6 +4,7 @@ const course_Name = document.getElementById("courseName");
 const drive_Link =document.getElementById("drive_Link");
 const playlist=document.getElementById("playlist");
 const section_playlist=document.getElementById("playlist2");
+const book = document.getElementById("book-btn");
 if (savedCourse) {
   
   fetch("https://raw.githubusercontent.com/ZAHRAN88/ACMaterial/main/assets/data/weeks.json")
@@ -30,6 +31,7 @@ if (savedCourse) {
           drive_Link.href=selectedCourseData.drive;
          selectedCourseData.playlist?playlist.href=selectedCourseData.playlist:comingSoon(playlist);
           selectedCourseData.playlist2?section_playlist.href=selectedCourseData.playlist2:section_playlist.style.display="none";
+          
       function comingSoon(playlist) {
       
         
