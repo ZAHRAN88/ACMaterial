@@ -64,6 +64,7 @@
     {
         "courseName": "File organization",
         "playlist": "https://www.youtube.com/playlist?list=PLwMDC6s3ODvKWHxfJ-5jm6Mi-IXlGAsmL",
+        "playlist2": "https://youtube.com/playlist?list=PLh9QRofPY0khGbgq5IXpCpzFW5gmCrz1F&feature=shared",
         "drive": "https://drive.google.com/drive/u/3/folders/1AQnuG9FWbV-bKUnZaQoQwuYbZuIzDkUg",
         "weeks": [
             {
@@ -122,12 +123,28 @@
                     {
                         "icon": "fas fa-file-download",
                         "text": "Lecture (PDF)",
-                        "link": ""
+                        "link": "https://drive.google.com/file/d/1LADMZCgKr6AY-ZZXjhs3E6apYTgRApKX/view?usp=drive_link"
                     },
                     {
                         "icon": "fas fa-file-download",
                         "text": "Section (PDF)",
                         "link": "https://drive.google.com/file/d/1JVdtNahCIAH9kWTsAM5Q85noJNmi2PB4/view?usp=drive_link"
+                    }
+                ]
+            }
+            ,
+            {
+                "weekName": "Week 4",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": ""
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": "https://drive.google.com/file/d/1LA4I8DK200setsLqdOFc7Hnh2tJ3L2Ta/view?usp=drive_link"
                     }
                 ]
             }
