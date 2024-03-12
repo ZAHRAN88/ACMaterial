@@ -10,7 +10,7 @@
                     {
                         "icon": "fas fa-file-download",
                         "text": "Lecture (PDF)",
-                        "link": "https://drive.google.com/file/d/19Wn_2fV169ffdP0RUrzQATSZcLgF0QTr/view?usp=drive_link"
+                        "link": "https://drive.google.com/file/d/1Lf6lT-WaayDWj4IHTRTBo1YGl5JCg0fP/view?usp=drive_link  "
                     },
                     {
                         "icon": "fas fa-file-download",
@@ -35,7 +35,7 @@
                     {
                         "icon": "fas fa-file-download",
                         "text": "Lecture (PDF)",
-                        "link": ""
+                        "link": "https://drive.google.com/file/d/1LgaqKyXI24Wx8leUMXswPQJO16yeoLAm/view?usp=drive_link"
                     },
                     {
                         "icon": "fas fa-file-download",
@@ -50,12 +50,43 @@
                     {
                         "icon": "fas fa-file-download",
                         "text": "Lecture (PDF)",
-                        "link": "https://drive.google.com/file/d/19fVXNZSnO2daz7yE-RhNzYnTuf_GQ7rf/view?usp=drive_link"
+                        "link": "https://drive.google.com/file/d/1Lmfj_90IXJHZB-UIv_OQFKHwycrnQ2sq/view?usp=drive_link"
                     },
                     {
                         "icon": "fas fa-file-download",
                         "text": "Section (PDF)",
                         "link": "https://drive.google.com/file/d/1VhmCmwWcwkiGgtN_rqc6vua7Q9HNUO2L/view?usp=drive_link"
+                    }
+                ]
+            },
+            {
+                "weekName": "Week 4",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": "https://drive.google.com/file/d/1LnKVAxzbe8l-gW22xVgjRxkCr8oL70zs/view?usp=drive_link"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": "https://drive.google.com/file/d/1LD_GXqkiVdrwZu74QbyDWtdv19cwqeiy/view?usp=drive_link"
+                    }
+                ]
+            }
+            ,
+            {
+                "weekName": "Week 5",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": "https://drive.google.com/file/d/1LeJ4S_d4AeLW_U-zriDilu1u-O41yRyL/view?usp=drive_link"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": ""
                     }
                 ]
             }
