@@ -418,6 +418,16 @@
         "book":"https://drive.google.com/file/d/1qUL4w4xUT31-3jMEbCXzdJBGIw82sYB4/view?usp=drive_link",
         "weeks": [
             {
+                "weekName": "Course Reference",
+                "resources": [
+                    {
+                        "icon": "fa-solid fa-book-open",
+                        "text": "Reference Book (PDF)",
+                        "link": "https://drive.google.com/file/d/1qUL4w4xUT31-3jMEbCXzdJBGIw82sYB4/view?usp=drive_link"
+                    }
+                ]
+            },
+            {
                 "weekName": "Week 1",
                 "resources": [
                     {
