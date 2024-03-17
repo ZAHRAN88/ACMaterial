@@ -198,7 +198,7 @@
                     {
                         "icon": "fas fa-file-download",
                         "text": "Section (PDF)",
-                        "link": "https://drive.google.com/file/d/1FHoo-yByVyWDlmrmrw1HDdDRYaS-wFZs/view?usp=drive_link"
+                        "link": "https://drive.google.com/file/d/1M7ZnHFpgzxPy2-DVw2PzUzzj52TtYO3L/view?usp=drive_link"
                     },
                     {
                         "icon": "fas fa-file-download",
@@ -218,7 +218,7 @@
                     {
                         "icon": "fas fa-file-download",
                         "text": "Section (PDF)",
-                        "link": "https://drive.google.com/file/d/1FKW8xzsADviFiTnk3gRI-ycbIymY2ywL/view?usp=drive_link"
+                        "link": "https://drive.google.com/file/d/1M7i7OtzYASBv6lmb9pBZS4HqvtRy-b2z/view?usp=drive_link"
                     }
                 ]
             },
@@ -233,7 +233,37 @@
                     {
                         "icon": "fas fa-file-download",
                         "text": "Section (PDF)",
-                        "link": "https://drive.google.com/file/d/1FVZXOxs15hN81e07vynlyl0Werz2fbi_/view?usp=drive_link"
+                        "link": "https://drive.google.com/file/d/1MCyt_nRzIDkX65I-mml-kTBXhE9HpbYj/view?usp=drive_link"
+                    }
+                ]
+            },
+            {
+                "weekName": "Week 4",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": ""
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": "https://drive.google.com/file/d/1MEaezUGk3aBKpxgfPdS8ZrF6kxTiRMUh/view?usp=drive_link"
+                    }
+                ]
+            },
+            {
+                "weekName": "Week 5",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": ""
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": "https://drive.google.com/file/d/1M1uTj6peyyCzYq88cT3HlHm4wBzt7pH1/view?usp=drive_link"
                     }
                 ]
             }
