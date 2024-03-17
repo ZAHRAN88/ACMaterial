@@ -353,12 +353,28 @@
                     {
                         "icon": "fas fa-file-download",
                         "text": "Lecture (PDF)",
-                        "link": ""
+                        "link": "https://drive.google.com/file/d/1LsjYQ9rjnMW3qXLYbCuoCScUKsjzRMtX/view?usp=drive_link"
                     },
                     {
                         "icon": "fas fa-file-download",
                         "text": "Section (PDF)",
                         "link": "https://drive.google.com/file/d/1KNm2NdJdtf98nCY9qiFn9M6Ykc1gD9tu/view?usp=drive_link"
+                    }
+                ]
+            }
+            ,
+            {
+                "weekName": "Week 4",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": "https://drive.google.com/file/d/1LpM5opNvD-jaccuuwH3gFVOOJEUKnqmi/view?usp=drive_link"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": "https://drive.google.com/file/d/1Kf44UvwUGcVARtSREysXMiwFvVc12eRh/view?usp=drive_link"
                     }
                 ]
             }
