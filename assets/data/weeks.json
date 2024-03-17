@@ -161,6 +161,12 @@
                         "text": "Section (PDF)",
                         "link": "https://drive.google.com/file/d/1JVdtNahCIAH9kWTsAM5Q85noJNmi2PB4/view?usp=drive_link"
                     }
+                    ,
+                    {
+                        "icon": "fa-solid fa-circle-info",
+                        "text": "Project Requirements",
+                        "link": "https://drive.google.com/file/d/1MFh4N9BLnqYZfpnvhEuXgTsQZ0eX1tYB/view?usp=drive_link"
+                    }
                 ]
             }
             ,
@@ -490,12 +496,7 @@
                         "text": "Week Summary (Written)",
                         "link": "https://drive.google.com/file/d/1L-5JO-4zrDcI1LtatWTvE1BdVSu25PbY/view?usp=drive_link"
                     }
-                    ,
-                    {
-                        "icon": "fa-solid fa-circle-info",
-                        "text": "Project Requirements",
-                        "link": "https://drive.google.com/file/d/1MFh4N9BLnqYZfpnvhEuXgTsQZ0eX1tYB/view?usp=drive_link"
-                    }
+                    
                 ]
             }
         ]
