@@ -73,8 +73,7 @@
                         "link": "https://drive.google.com/file/d/1LD_GXqkiVdrwZu74QbyDWtdv19cwqeiy/view?usp=drive_link"
                     }
                 ]
-            }
-            ,
+            },
             {
                 "weekName": "Week 5",
                 "resources": [
@@ -160,16 +159,14 @@
                         "icon": "fas fa-file-download",
                         "text": "Section (PDF)",
                         "link": "https://drive.google.com/file/d/1JVdtNahCIAH9kWTsAM5Q85noJNmi2PB4/view?usp=drive_link"
-                    }
-                    ,
+                    },
                     {
                         "icon": "fa-solid fa-circle-info",
                         "text": "Project Requirements",
                         "link": "https://drive.google.com/file/d/1MFh4N9BLnqYZfpnvhEuXgTsQZ0eX1tYB/view?usp=drive_link"
                     }
                 ]
-            }
-            ,
+            },
             {
                 "weekName": "Week 4",
                 "resources": [
@@ -397,8 +394,7 @@
                         "link": "https://drive.google.com/file/d/1KNm2NdJdtf98nCY9qiFn9M6Ykc1gD9tu/view?usp=drive_link"
                     }
                 ]
-            }
-            ,
+            },
             {
                 "weekName": "Week 4",
                 "resources": [
@@ -421,7 +417,7 @@
         "playlist": "https://www.youtube.com/watch?v=GhvSG8bQhaY&list=PLtMKgAgxSA9BRqqsCd98bFxytx7YYNjNf&pp=iAQB",
         "playlist2": "https://www.youtube.com/playlist?list=PLqz9DfkqfigoM1eK9GMqDUEhzkdWAuT1X",
         "drive": "https://drive.google.com/drive/u/3/folders/1D5DlHgg9BhsjcUvf0-RHS2gd1gsEDKqd",
-        "book":"https://drive.google.com/file/d/1qUL4w4xUT31-3jMEbCXzdJBGIw82sYB4/view?usp=drive_link",
+        "book": "https://drive.google.com/file/d/1qUL4w4xUT31-3jMEbCXzdJBGIw82sYB4/view?usp=drive_link",
         "weeks": [
             {
                 "weekName": "Course Reference",
@@ -436,11 +432,7 @@
             {
                 "weekName": "Week 1",
                 "resources": [
-                    {
-                        "icon": "fas fa-file-download",
-                        "text": "Lecture (PDF)",
-                        "link": ""
-                    },
+                   
                     {
                         "icon": "fas fa-file-download",
                         "text": "Section (PDF)",
@@ -461,11 +453,7 @@
             {
                 "weekName": "Week 2",
                 "resources": [
-                    {
-                        "icon": "fas fa-file-download",
-                        "text": "Lecture (PDF)",
-                        "link": ""
-                    },
+                   
                     {
                         "icon": "fas fa-file-download",
                         "text": "Section (PDF)",
@@ -481,11 +469,7 @@
             {
                 "weekName": "Week 3",
                 "resources": [
-                    {
-                        "icon": "fas fa-file-download",
-                        "text": "Lecture (PDF)",
-                        "link": ""
-                    },
+                    
                     {
                         "icon": "fas fa-file-download",
                         "text": "Section (PDF)",
@@ -496,7 +480,28 @@
                         "text": "Week Summary (Written)",
                         "link": "https://drive.google.com/file/d/1L-5JO-4zrDcI1LtatWTvE1BdVSu25PbY/view?usp=drive_link"
                     }
-                    
+                ]
+            },
+            {
+                "weekName": "Week 4",
+                "resources": [
+                   
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": "https://drive.google.com/file/d/1tySPJkRsZ29HFtJuDxdJEm0kWaFZKKds/view?usp=drive_link"
+                    }
+                ]
+            },
+            {
+                "weekName": "Week 5",
+                "resources": [
+                   
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": "https://drive.google.com/file/d/1nl86J0-V2W9Fo5owNl-XqZZXWAW3LF3f/view?usp=drive_link"
+                    }
                 ]
             }
         ]
