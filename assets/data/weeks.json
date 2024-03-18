@@ -82,7 +82,6 @@
                         "text": "Lecture (PDF)",
                         "link": "https://drive.google.com/file/d/1LeJ4S_d4AeLW_U-zriDilu1u-O41yRyL/view?usp=drive_link"
                     },
-                   
                     {
                         "icon": "fas fa-file-download",
                         "text": "Section (PDF)",
@@ -315,6 +314,126 @@
                         "icon": "fas fa-file-download",
                         "text": "Lecture (PDF)",
                         "link": "https://drive.google.com/file/d/1KL9_iX1yE98gbEWgEkDLZEhbozzAJbIh/view?usp=drive_link"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "weekName": "Week 4",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": "https://drive.google.com/file/d/1DrQHYPWri-johA3KLi9roi6RgEca6DZp/view?usp=drive_link"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "weekName": "Week 5",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": "https://drive.google.com/file/d/1DymlNrNEOnQhNlw8_3SuibArZpU2ldNZ/view?usp=drive_link"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "weekName": "Week 6",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": "https://drive.google.com/file/d/1EFoP42AzRLv0N5nPTeQiGurs7fNfZZma/view?usp=drive_link"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "weekName": "Week 7",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": "https://drive.google.com/file/d/1EAGRLUjIFNOY3sJZnOoFS1PGWx18SCXg/view?usp=drive_link"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "weekName": "Week 8",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": "https://drive.google.com/file/d/1EIkKX-8jso7aXFwmr5cvSqevXKU5qool/view?usp=drive_link"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "weekName": "Week 10",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": "https://drive.google.com/file/d/1E5ZrZdSze9uR2p9zIN17hcdtbAnkKhat/view?usp=drive_link"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "weekName": "Week 11",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": "https://drive.google.com/file/d/1E5ZrZdSze9uR2p9zIN17hcdtbAnkKhat/view?usp=drive_link"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "weekName": "Week 12",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": "https://drive.google.com/file/d/1E32l9BiDTXmaYHA7ScCTIlkrTe2wqwgC/view?usp=drive_link"
                     },
                     {
                         "icon": "fas fa-file-download",
