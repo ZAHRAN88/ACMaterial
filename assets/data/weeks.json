@@ -2,6 +2,7 @@
     {
         "courseName": "System analysis",
         "playlist": "https://youtube.com/playlist?list=PLMzaNeHCFdm-0QIV9CuFZpIi_4-nKH4Xi",
+        "playlist2": "https://drive.google.com/drive/folders/1Mk82o70JZQiRRfS0OdzWeHYq08-skOtl?usp=drive_link",
         "drive": "https://drive.google.com/drive/u/3/folders/18pZnVYS-4yqHuGY7_kc_2ecz2_qO4WeW",
         "weeks": [
             {
@@ -85,7 +86,7 @@
                     {
                         "icon": "fas fa-file-download",
                         "text": "Section (PDF)",
-                        "link": "https://drive.google.com/file/d/19p4qqRr2H_amSg6P13LymZSs7ot6QRgh/view?usp=drive_link"
+                        "link": "https://drive.google.com/file/d/1MFxxa2slTUXolGlxd0eboT62FLO2d86v/view?usp=drive_link"
                     }
                 ]
             }
