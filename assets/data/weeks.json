@@ -89,6 +89,21 @@
                         "link": "https://drive.google.com/file/d/1MFxxa2slTUXolGlxd0eboT62FLO2d86v/view?usp=drive_link"
                     }
                 ]
+            },
+            {
+                "weekName": "Week 6 ",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": "https://drive.google.com/file/d/1LnxQBUUW28GBnQwavFChPYYVNftlJT3F/view?usp=drive_link"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": ""
+                    }
+                ]
             }
         ]
     },
