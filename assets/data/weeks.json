@@ -530,6 +530,21 @@
                         "link": "https://drive.google.com/file/d/1Kf44UvwUGcVARtSREysXMiwFvVc12eRh/view?usp=drive_link"
                     }
                 ]
+            },
+            {
+                "weekName": "Week 5",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": "https://drive.google.com/file/d/1MGDoJDQjHwjM2SQpNOvMGchbZMYL5Nrh/view?usp=drive_link"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": "https://drive.google.com/file/d/1KfplvwLGuDTX0nv76ZOlP_ppn3er3fOU/view?usp=drive_link"
+                    }
+                ]
             }
         ]
     },
