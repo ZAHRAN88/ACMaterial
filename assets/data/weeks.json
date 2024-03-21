@@ -109,7 +109,7 @@
     },
     {
         "courseName": "File organization",
-        "playlist": "https://www.youtube.com/playlist?list=PLwMDC6s3ODvKWHxfJ-5jm6Mi-IXlGAsmL",
+        "playlist": "https://www.youtube.com/playlist?list=PLgo424rEtScsSOj0QUgZOdvb4MJojVPhV",
         "playlist2": "https://youtube.com/playlist?list=PLh9QRofPY0khGbgq5IXpCpzFW5gmCrz1F&feature=shared",
         "drive": "https://drive.google.com/drive/u/3/folders/1AQnuG9FWbV-bKUnZaQoQwuYbZuIzDkUg",
         "weeks": [
@@ -189,12 +189,43 @@
                     {
                         "icon": "fas fa-file-download",
                         "text": "Lecture (PDF)",
-                        "link": ""
+                        "link": "https://drive.google.com/file/d/1MR6SqzTPEiQ1Rlhd2st7FpaunwPz5K1K/view?usp=drive_link"
                     },
                     {
                         "icon": "fas fa-file-download",
                         "text": "Section (PDF)",
                         "link": "https://drive.google.com/file/d/1LA4I8DK200setsLqdOFc7Hnh2tJ3L2Ta/view?usp=drive_link"
+                    }
+                ]
+            }
+            ,
+            {
+                "weekName": "Week 5",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": "https://drive.google.com/file/d/1MIkVa-XvbG5NGJPchZ569OX6kVVNuDSS/view?usp=drive_link"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "weekName": "Week 6",
+                "resources": [
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Lecture (PDF)",
+                        "link": "https://drive.google.com/drive/folders/1MR6jICxRHu8F5JRqzpxyPeLpQjeSoCqE?usp=drive_link"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Section (PDF)",
+                        "link": ""
                     }
                 ]
             }
